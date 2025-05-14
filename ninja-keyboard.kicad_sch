@@ -1979,143 +1979,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse_Small"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_Small_0_1"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -5881,16 +5744,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 332.74) (xy 194.31 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07c8ce25-a769-48d6-9290-8ade6505aa7f")
-	)
-	(wire
-		(pts
 			(xy 525.78 254) (xy 551.18 254)
 		)
 		(stroke
@@ -9041,7 +8894,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 341.63) (xy 194.31 346.71)
+			(xy 194.31 332.74) (xy 194.31 346.71)
 		)
 		(stroke
 			(width 0)
@@ -14292,7 +14145,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 454.66 48.26 0)
 			(effects
 				(font
@@ -14325,6 +14178,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 454.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14633,6 +14494,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 124.46 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "926f7e50-2a1a-4b21-960c-21dd41437125")
 		)
@@ -14718,7 +14587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C25803"
 			(at 184.15 351.79 0)
 			(effects
 				(font
@@ -15100,7 +14969,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 200.66 49.53 0)
 			(effects
 				(font
@@ -15133,6 +15002,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15301,6 +15178,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21190"
+			(at 72.39 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15663,6 +15548,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 83.82 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "78a80b5b-3f00-406f-a724-47ee3731249b")
 		)
@@ -15841,7 +15734,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 149.86 168.91 0)
 			(effects
 				(font
@@ -15874,6 +15767,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16122,7 +16023,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 251.46 49.53 0)
 			(effects
 				(font
@@ -16155,6 +16056,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16440,6 +16349,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 88.9 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "83c83b6f-d8ee-4aad-8d67-89a9605f303c")
 		)
@@ -16538,7 +16455,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 200.66 107.95 0)
 			(effects
 				(font
@@ -16571,6 +16488,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17465,7 +17390,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 403.86 77.47 0)
 			(effects
 				(font
@@ -17498,6 +17423,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 403.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17841,7 +17774,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 149.86 107.95 0)
 			(effects
 				(font
@@ -17874,6 +17807,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18057,7 +17998,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 302.26 77.47 0)
 			(effects
 				(font
@@ -18090,6 +18031,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 302.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18241,6 +18190,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23345"
+			(at 541.02 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19006,6 +18963,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19702"
+			(at 60.96 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fe627e98-cd51-48d7-8abc-f7599f8016bb")
 		)
@@ -19314,6 +19279,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23182"
+			(at 480.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41f4ff8e-2547-4028-8879-353b5e0eeacc")
 		)
@@ -19347,7 +19321,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 454.66 167.64 0)
 			(effects
 				(font
@@ -19374,6 +19348,15 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 3"
+			(at 454.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
 			(at 454.66 171.45 0)
 			(effects
 				(font
@@ -19980,7 +19963,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 403.86 48.26 0)
 			(effects
 				(font
@@ -20013,6 +19996,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 403.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20051,7 +20042,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -20084,6 +20075,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20369,6 +20368,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22797"
+			(at 88.9 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f223519b-ca53-49d0-ab5a-b9170584bdbb")
 		)
@@ -20629,7 +20636,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 200.66 138.43 0)
 			(effects
 				(font
@@ -20662,6 +20669,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20737,6 +20752,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22797"
+			(at 238.76 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12f335ff-2566-4a90-b67a-e53ba84de3ae")
 		)
@@ -20770,7 +20793,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 403.86 106.68 0)
 			(effects
 				(font
@@ -20803,6 +20826,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 403.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20986,7 +21017,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 403.86 137.16 0)
 			(effects
 				(font
@@ -21019,6 +21050,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 403.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22050,6 +22089,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19702"
+			(at 68.58 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6175214b-a483-4aa7-998e-8be815614825")
 		)
@@ -22642,7 +22689,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ccab9b3-f616-4cff-9376-97199aeb6b4e")
 		(property "Reference" "C1"
 			(at 224.79 252.7362 0)
@@ -22681,6 +22727,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 222.25 254 0)
 			(effects
 				(font
@@ -22896,7 +22951,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 251.46 168.91 0)
 			(effects
 				(font
@@ -22929,6 +22984,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 251.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23644,7 +23707,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 353.06 77.47 0)
 			(effects
 				(font
@@ -23677,6 +23740,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 353.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23780,7 +23851,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 353.06 106.68 0)
 			(effects
 				(font
@@ -23813,6 +23884,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 353.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23931,7 +24010,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 302.26 167.64 0)
 			(effects
 				(font
@@ -23964,6 +24043,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 302.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24249,6 +24336,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22765"
+			(at 66.04 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1d7aa9e9-9daf-4a53-a611-86e10c26fa77")
 		)
@@ -24423,7 +24518,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 353.06 137.16 0)
 			(effects
 				(font
@@ -24456,6 +24551,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 353.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24574,7 +24677,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -24607,6 +24710,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 251.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24957,6 +25068,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2297"
+			(at 33.02 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "362bd51e-6505-4027-a605-c24795126038")
 		)
@@ -25201,6 +25320,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23045"
+			(at 92.71 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "042ef158-69b2-4de5-8f08-d22da1dc559f")
 		)
@@ -25234,7 +25361,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 149.86 49.53 0)
 			(effects
 				(font
@@ -25261,6 +25388,15 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 3"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
 			(at 149.86 52.07 0)
 			(effects
 				(font
@@ -25754,7 +25890,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C22843"
 			(at 260.35 364.49 0)
 			(effects
 				(font
@@ -25861,7 +25997,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 200.66 168.91 0)
 			(effects
 				(font
@@ -25894,6 +26030,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 200.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26127,7 +26271,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 302.26 48.26 0)
 			(effects
 				(font
@@ -26160,6 +26304,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 302.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26198,7 +26350,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 454.66 77.47 0)
 			(effects
 				(font
@@ -26231,6 +26383,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 454.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26490,7 +26650,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 149.86 138.43 0)
 			(effects
 				(font
@@ -26523,6 +26683,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26626,7 +26794,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 302.26 106.68 0)
 			(effects
 				(font
@@ -26659,6 +26827,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 302.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27037,7 +27213,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 353.06 167.64 0)
 			(effects
 				(font
@@ -27070,6 +27246,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 353.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27173,7 +27357,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -27206,6 +27390,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 251.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27279,6 +27471,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4211"
+			(at 33.02 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27487,6 +27687,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 115.57 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0627fc85-6bde-447d-85a6-6fd9e84d3a43")
 		)
@@ -27555,6 +27763,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22843"
+			(at 57.15 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -28827,6 +29043,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23061"
+			(at 92.71 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7269728f-aea5-42c8-8a4d-de23cc38b0f9")
 		)
@@ -29346,6 +29570,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22859"
+			(at 97.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92f8d8ca-22fd-4bbf-892a-c453a4b41d77")
 		)
@@ -29722,6 +29954,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2286"
+			(at 57.15 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -30197,7 +30437,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -30230,6 +30470,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -30331,103 +30579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 194.31 339.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4b8907c-b972-4a34-81a9-f1da583e2ec1")
-		(property "Reference" "F2"
-			(at 195.58 337.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse_Small"
-			(at 195.58 340.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 194.31 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 194.31 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 194.31 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 194.31 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C7472578"
-			(at 194.31 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f54fc74-7dc4-4ef9-b970-8c822a013b06")
-		)
-		(pin "1"
-			(uuid "31ac6ac2-7a5a-4fa9-9124-4c0f753258ef")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 104.14 340.36 0)
 		(unit 1)
@@ -30480,6 +30631,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C95968"
+			(at 104.14 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -30595,7 +30754,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 353.06 48.26 0)
 			(effects
 				(font
@@ -30628,6 +30787,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 353.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -30978,6 +31145,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25950"
+			(at 124.46 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5773d328-63ba-42c9-82c2-a1cef421954b")
 		)
@@ -31076,7 +31251,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 454.66 137.16 0)
 			(effects
 				(font
@@ -31109,6 +31284,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 454.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -31346,7 +31529,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2286"
+		(property "LCSC Part #" "C2296"
 			(at 260.35 358.14 0)
 			(effects
 				(font
@@ -31397,7 +31580,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 454.66 106.68 0)
 			(effects
 				(font
@@ -31430,6 +31613,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 454.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -31505,6 +31696,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 238.76 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8230e509-1e24-4e0f-a107-4c5ea2c158e0")
 		)
@@ -31573,6 +31772,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23345"
+			(at 533.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a82d136-4fd9-4174-9dc0-6c105c557563")
 		)
@@ -31606,7 +31813,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 251.46 78.74 0)
 			(effects
 				(font
@@ -31639,6 +31846,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 251.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -31937,6 +32152,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22797"
+			(at 222.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -32263,7 +32486,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 302.26 137.16 0)
 			(effects
 				(font
@@ -32296,6 +32519,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 302.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -32334,7 +32565,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DAV70"
 			(at 403.86 167.64 0)
 			(effects
 				(font
@@ -32367,6 +32598,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C68978"
+			(at 403.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -32586,6 +32825,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 81.28 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
