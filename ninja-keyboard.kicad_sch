@@ -13181,7 +13181,7 @@
 		(uuid "1081d54e-5521-41e9-8190-690df8719eb7")
 	)
 	(label "LCD_SCL"
-		(at 168.91 245.11 0)
+		(at 168.91 252.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13401,7 +13401,7 @@
 		(uuid "3d166158-794e-4c99-b183-b702b487f1e0")
 	)
 	(label "LCD_DC"
-		(at 168.91 252.73 0)
+		(at 168.91 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13661,7 +13661,7 @@
 		(uuid "70301d52-9f24-43c8-bb83-5293b6e57edc")
 	)
 	(label "LCD_SDA"
-		(at 168.91 247.65 0)
+		(at 168.91 250.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13691,7 +13691,7 @@
 		(uuid "727703af-ce16-4288-8ac4-64f59f3c1f41")
 	)
 	(label "LCD_RST"
-		(at 168.91 250.19 0)
+		(at 168.91 245.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14140,8 +14140,8 @@
 		)
 		(uuid "a806dd36-653f-4af4-86e3-472004916ad6")
 	)
-	(label "LCD_LEDK"
-		(at 104.14 234.95 0)
+	(label "LCD_LEDA"
+		(at 92.71 252.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14361,7 +14361,7 @@
 		(uuid "d06eec32-4519-4192-8ee6-89d0abac806d")
 	)
 	(label "3V3"
-		(at 168.91 242.57 0)
+		(at 168.91 255.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14371,7 +14371,7 @@
 		(uuid "d0c7f17c-6b84-469f-8fa9-f280fed8db2e")
 	)
 	(label "LCD_CS"
-		(at 168.91 255.27 0)
+		(at 168.91 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14521,6 +14521,16 @@
 		(uuid "e48eb5d4-8a7d-4c83-a3f7-7c16dc9b000a")
 	)
 	(label "3V3"
+		(at 104.14 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5bbaf6d-a12c-4455-80d1-376de2c5dae6")
+	)
+	(label "3V3"
 		(at 157.48 85.09 180)
 		(effects
 			(font
@@ -14630,8 +14640,8 @@
 		)
 		(uuid "f25af4e1-d3ee-470a-87a5-047f103badca")
 	)
-	(label "LCD_LEDK"
-		(at 168.91 257.81 0)
+	(label "LCD_LEDA"
+		(at 168.91 240.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26721,72 +26731,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62f4afcf-3f53-413f-908e-ca3b45c7deea")
-		(property "Reference" "#PWR0146"
-			(at 92.71 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17a8197d-9f0e-4eab-ae05-4c35cde87e9b")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 356.87 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31176,7 +31120,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 240.03 90)
+		(at 168.91 242.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31185,7 +31129,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fae06d7-0afd-4f94-9307-25cd96771c62")
 		(property "Reference" "#PWR0142"
-			(at 175.26 240.03 0)
+			(at 175.26 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31194,7 +31138,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 240.0299 90)
+			(at 172.72 242.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31203,7 +31147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 240.03 0)
+			(at 168.91 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31212,7 +31156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 240.03 0)
+			(at 168.91 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31221,7 +31165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 240.03 0)
+			(at 168.91 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
