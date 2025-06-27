@@ -5021,12 +5021,6 @@
 		(uuid "01aa8fa4-0256-478d-97c7-b2664ccd6c6d")
 	)
 	(junction
-		(at 435.61 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03ead882-eb4b-4974-bb54-bc59812de8d9")
-	)
-	(junction
 		(at 422.91 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5123,12 +5117,6 @@
 		(uuid "30673563-89c7-4129-b09d-a4f0b292db32")
 	)
 	(junction
-		(at 200.66 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31b9029b-8764-43a3-9a57-d991464ea907")
-	)
-	(junction
 		(at 340.36 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5181,12 +5169,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4029877e-6e4a-42e5-9235-b3f2fedc2f7b")
-	)
-	(junction
-		(at 283.21 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4056b3eb-df50-4ffb-a939-f404ca8cfc7c")
 	)
 	(junction
 		(at 422.91 110.49)
@@ -5243,12 +5225,6 @@
 		(uuid "56d6ee3f-2881-4251-ae7c-cb84edef9ca4")
 	)
 	(junction
-		(at 321.31 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59bf7e91-196f-4a98-a95a-90965ffce8e7")
-	)
-	(junction
 		(at 149.86 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5279,18 +5255,6 @@
 		(uuid "64c108d1-7b35-4707-9f46-50c88cdb5b91")
 	)
 	(junction
-		(at 473.71 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "693a30d3-0cef-4cbf-842e-0fad80044120")
-	)
-	(junction
-		(at 422.91 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a369fb1-213a-4fc5-affb-da91b33eb708")
-	)
-	(junction
 		(at 251.46 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5301,18 +5265,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e96b54d-ee88-4fad-98f8-ee05bd7c1b21")
-	)
-	(junction
-		(at 372.11 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7080cd4d-12f5-4a0f-b7a3-a54b05534f07")
-	)
-	(junction
-		(at 270.51 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "717c0171-9e4f-44e7-a02b-11b684df25a7")
 	)
 	(junction
 		(at 200.66 157.48)
@@ -5357,12 +5309,6 @@
 		(uuid "7d7fe4e6-c99a-4063-9fc8-a243ccc6ed06")
 	)
 	(junction
-		(at 403.86 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f376ec3-69f9-4b12-8722-96f3977dec2c")
-	)
-	(junction
 		(at 353.06 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5393,7 +5339,7 @@
 		(uuid "89c4ffe2-2f17-464c-9f6b-f0fdf640a215")
 	)
 	(junction
-		(at 251.46 187.96)
+		(at 353.06 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89cd39eb-3371-43e9-9d94-4c95fc2d2c01")
@@ -5427,12 +5373,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f07b655-b48d-497f-bd38-337abe06fa61")
-	)
-	(junction
-		(at 334.01 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fde8e18-c93c-450c-8a60-8707a190abae")
 	)
 	(junction
 		(at 260.35 355.6)
@@ -5489,6 +5429,12 @@
 		(uuid "a1aca9c9-c7bd-4458-b9c2-b2eeee68ad31")
 	)
 	(junction
+		(at 200.66 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f02949-11b2-46ae-b5ea-2bba235a0825")
+	)
+	(junction
 		(at 53.34 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5531,16 +5477,22 @@
 		(uuid "ad747d17-d845-449c-870c-d2620ec12682")
 	)
 	(junction
-		(at 302.26 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ada07747-bc23-4ac4-b2fc-28f3c222a145")
-	)
-	(junction
 		(at 302.26 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b13425c1-ba96-4eaa-a21f-6d26c669e5d4")
+	)
+	(junction
+		(at 334.01 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3cd6598-6fd3-44a0-93dd-e597ef68d747")
+	)
+	(junction
+		(at 384.81 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f47d48-ed1e-4805-a4e1-c3a49becd09a")
 	)
 	(junction
 		(at 181.61 52.07)
@@ -5549,34 +5501,16 @@
 		(uuid "bc23046b-93f2-4e14-8c52-54e06a80ba59")
 	)
 	(junction
-		(at 473.71 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc4a0bc5-f884-4002-8e8d-7fce5ea5f0ad")
-	)
-	(junction
 		(at 124.46 378.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf7ccaa5-c1e6-4f17-980f-4d554a9a8158")
 	)
 	(junction
-		(at 384.81 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4f64e1b-d72a-4b7a-a474-2f5b76ec320b")
-	)
-	(junction
 		(at 92.71 335.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9b9cfd2-e0de-4d59-b500-e291307e838e")
-	)
-	(junction
-		(at 232.41 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9e6e5bb-059f-4e05-bcf2-e593373ad074")
 	)
 	(junction
 		(at 243.84 358.14)
@@ -5597,6 +5531,12 @@
 		(uuid "cc549af4-edaf-4b37-8113-99bff8d1a573")
 	)
 	(junction
+		(at 422.91 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce84f298-eb14-41a6-9c3e-2be4885114e8")
+	)
+	(junction
 		(at 353.06 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5613,12 +5553,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d08f1593-4113-472c-baab-3e9dfeb75a34")
-	)
-	(junction
-		(at 403.86 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d33b5116-a082-4510-a710-d4f7e2ced8b9")
 	)
 	(junction
 		(at 68.58 320.04)
@@ -5651,34 +5585,22 @@
 		(uuid "e60f1097-40cb-4616-93c1-1ea5502bb960")
 	)
 	(junction
-		(at 435.61 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6bbebdd-c79a-4be6-9c58-385bddb05d11")
-	)
-	(junction
-		(at 473.71 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed05b01d-5fd0-4447-81dd-c16b25e226af")
-	)
-	(junction
 		(at 130.81 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eecb1982-af51-463c-b921-dd22c78579ce")
 	)
 	(junction
-		(at 353.06 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f00bb813-0085-4e68-90fb-ae8961b0ae7f")
-	)
-	(junction
 		(at 251.46 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5cb160f-0941-41b2-bc18-9f318ba1d803")
+	)
+	(junction
+		(at 372.11 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa597ec0-ddcf-4796-a047-a28a09e189ab")
 	)
 	(junction
 		(at 334.01 52.07)
@@ -5707,6 +5629,10 @@
 		(uuid "497688db-ca0c-4961-9a45-392ed6e1e0e1")
 	)
 	(no_connect
+		(at 462.28 110.49)
+		(uuid "55784a18-3519-408a-b47e-ecf1b61daf03")
+	)
+	(no_connect
 		(at 186.69 364.49)
 		(uuid "bec956d0-2481-4aa8-a207-06b183303837")
 	)
@@ -5722,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 177.8) (xy 276.86 177.8)
+			(xy 386.08 177.8) (xy 378.46 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5792,7 +5718,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 171.45) (xy 233.68 171.45)
+			(xy 334.01 171.45) (xy 335.28 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6122,16 +6048,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 151.13) (xy 450.85 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa38099-d690-4a74-b0c6-8303457cce06")
-	)
-	(wire
-		(pts
 			(xy 330.2 364.49) (xy 328.93 364.49)
 		)
 		(stroke
@@ -6142,7 +6058,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 175.26) (xy 233.68 175.26)
+			(xy 331.47 175.26) (xy 335.28 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6179,16 +6095,6 @@
 			(type default)
 		)
 		(uuid "1011c35a-6a84-4927-b704-fc2b30fdbeb0")
-	)
-	(wire
-		(pts
-			(xy 454.66 157.48) (xy 454.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "109cac44-60bb-4b86-ab05-5005416ea5e7")
 	)
 	(wire
 		(pts
@@ -6229,16 +6135,6 @@
 			(type default)
 		)
 		(uuid "11970e5d-d412-4776-88c7-ad730e96f2f8")
-	)
-	(wire
-		(pts
-			(xy 461.01 161.29) (xy 426.72 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120e25bf-55de-4f45-bbae-51378b49f678")
 	)
 	(wire
 		(pts
@@ -6372,26 +6268,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 177.8) (xy 349.25 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17b1e7d7-e2f3-4461-941d-522152a017dc")
-	)
-	(wire
-		(pts
-			(xy 433.07 175.26) (xy 436.88 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cf10d8-f2a8-462f-ba79-1b7ccb54255f")
-	)
-	(wire
-		(pts
 			(xy 124.46 378.46) (xy 138.43 378.46)
 		)
 		(stroke
@@ -6422,16 +6298,6 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 175.26) (xy 450.85 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18759b65-eab6-4a5d-a600-8e721c2d7fb4")
-	)
-	(wire
-		(pts
 			(xy 233.68 58.42) (xy 226.06 58.42)
 		)
 		(stroke
@@ -6439,16 +6305,6 @@
 			(type default)
 		)
 		(uuid "18d33d5f-f7e7-4d55-b1fc-6a7d48318868")
-	)
-	(wire
-		(pts
-			(xy 372.11 140.97) (xy 372.11 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191bb376-fad8-4958-b2cb-7df7070b4742")
 	)
 	(wire
 		(pts
@@ -6479,16 +6335,6 @@
 			(type default)
 		)
 		(uuid "1a618cc1-f6a3-4889-814e-2c3af8885eef")
-	)
-	(wire
-		(pts
-			(xy 435.61 171.45) (xy 436.88 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a70d8f6-28ce-42fe-acf4-7a0c7694e06a")
 	)
 	(wire
 		(pts
@@ -6529,16 +6375,6 @@
 			(type default)
 		)
 		(uuid "1b46ba40-dc0c-4416-964f-75aef122fbcb")
-	)
-	(wire
-		(pts
-			(xy 426.72 175.26) (xy 421.64 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c51722c-c89d-47e8-9819-9c061e607a7e")
 	)
 	(wire
 		(pts
@@ -6612,6 +6448,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 147.32) (xy 411.48 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f13cffa-a354-4661-afce-8b6ed4ee4cb0")
+	)
+	(wire
+		(pts
 			(xy 208.28 151.13) (xy 247.65 151.13)
 		)
 		(stroke
@@ -6632,43 +6478,13 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 114.3) (xy 447.04 114.3)
+			(xy 447.04 114.3) (xy 459.74 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "204bbc76-b488-47df-8502-ab7d75aea09a")
-	)
-	(wire
-		(pts
-			(xy 334.01 171.45) (xy 335.28 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20617f3f-a7ca-48fb-805b-e9dc5e7c22ac")
-	)
-	(wire
-		(pts
-			(xy 320.04 175.26) (xy 327.66 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212beaaa-a767-4c18-9781-0054e1bf1fa7")
-	)
-	(wire
-		(pts
-			(xy 452.12 116.84) (xy 452.12 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213295c7-fe81-485c-9f0e-f24096273e91")
 	)
 	(wire
 		(pts
@@ -6762,7 +6578,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 177.8) (xy 298.45 175.26)
+			(xy 400.05 177.8) (xy 400.05 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6772,13 +6588,13 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 151.13) (xy 450.85 144.78)
+			(xy 384.81 140.97) (xy 384.81 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24b0754b-0031-4e0e-a81a-77d24247c94e")
+		(uuid "257e63b6-0a2d-451b-b1de-63fc67b065b8")
 	)
 	(wire
 		(pts
@@ -6822,16 +6638,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 140.97) (xy 473.71 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2711b73f-1511-45db-9e9c-8008e0cc254a")
-	)
-	(wire
-		(pts
 			(xy 63.5 335.28) (xy 83.82 335.28)
 		)
 		(stroke
@@ -6839,26 +6645,6 @@
 			(type default)
 		)
 		(uuid "273c0fe3-cf8b-454a-a375-a85e0836955f")
-	)
-	(wire
-		(pts
-			(xy 327.66 177.8) (xy 327.66 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27411763-11b1-4925-a66b-3123c2c59e2c")
-	)
-	(wire
-		(pts
-			(xy 302.26 187.96) (xy 353.06 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2866f689-f86f-4944-99bc-4525608d503b")
 	)
 	(wire
 		(pts
@@ -6892,7 +6678,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 175.26) (xy 298.45 175.26)
+			(xy 396.24 175.26) (xy 400.05 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6939,6 +6725,16 @@
 			(type default)
 		)
 		(uuid "2a24d7a9-8cf0-432a-9ff9-3fadde0ab204")
+	)
+	(wire
+		(pts
+			(xy 422.91 140.97) (xy 422.91 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a53da7b-08f8-49ed-aeec-3f673aaba1c0")
 	)
 	(wire
 		(pts
@@ -7000,16 +6796,6 @@
 		)
 		(uuid "2d3e078e-dd84-42e8-940b-d08d366b12f6")
 	)
-	(wire
-		(pts
-			(xy 473.71 81.28) (xy 473.71 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e64b923-cac3-4590-abc0-4b84c5297b4b")
-	)
 	(polyline
 		(pts
 			(xy 284.48 205.74) (xy 582.295 205.74)
@@ -7022,7 +6808,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 175.26) (xy 259.08 175.26)
+			(xy 356.87 175.26) (xy 360.68 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7222,16 +7008,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 175.26) (xy 450.85 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341760b0-f29d-42c4-a2a5-f20e9f8c3adf")
-	)
-	(wire
-		(pts
 			(xy 231.14 154.94) (xy 274.32 154.94)
 		)
 		(stroke
@@ -7282,16 +7058,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 140.97) (xy 334.01 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362132ae-2152-49c8-a8b2-3dd920416f1e")
-	)
-	(wire
-		(pts
 			(xy 149.86 127) (xy 149.86 115.57)
 		)
 		(stroke
@@ -7299,16 +7065,6 @@
 			(type default)
 		)
 		(uuid "3659773a-976b-4b04-8d1d-45e383ddf423")
-	)
-	(wire
-		(pts
-			(xy 382.27 175.26) (xy 386.08 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ae26c3-81fd-409c-a8bc-eaa89a8c9f7c")
 	)
 	(wire
 		(pts
@@ -7389,16 +7145,6 @@
 			(type default)
 		)
 		(uuid "3a999da7-f4ee-4db1-8fd5-3d88a5b7b4d2")
-	)
-	(wire
-		(pts
-			(xy 458.47 144.78) (xy 462.28 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af2b867-7c77-4366-b24b-10e48cf57716")
 	)
 	(wire
 		(pts
@@ -7682,16 +7428,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 110.49) (xy 473.71 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42881d21-f175-420c-98b7-98b762a5a62d")
-	)
-	(wire
-		(pts
 			(xy 220.98 358.14) (xy 220.98 361.95)
 		)
 		(stroke
@@ -7942,7 +7678,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 177.8) (xy 298.45 177.8)
+			(xy 411.48 177.8) (xy 400.05 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7982,26 +7718,6 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 154.94) (xy 477.52 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f0d96a1-b6a0-4bb6-a66c-e85fbde7281d")
-	)
-	(wire
-		(pts
-			(xy 462.28 116.84) (xy 452.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f1458ac-0794-45c4-837b-29fa0be964da")
-	)
-	(wire
-		(pts
 			(xy 144.78 85.09) (xy 142.24 85.09)
 		)
 		(stroke
@@ -8012,16 +7728,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 177.8) (xy 378.46 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f1c49b-c083-44c7-a09b-88777381056f")
-	)
-	(wire
-		(pts
 			(xy 203.2 355.6) (xy 224.79 355.6)
 		)
 		(stroke
@@ -8029,26 +7735,6 @@
 			(type default)
 		)
 		(uuid "5110983b-1757-4da9-976f-1e9e85b271d6")
-	)
-	(wire
-		(pts
-			(xy 477.52 144.78) (xy 472.44 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512a6209-2e09-4ed5-9738-4e156c8069f7")
-	)
-	(wire
-		(pts
-			(xy 472.44 110.49) (xy 473.71 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d1c81f-7475-46c8-9f5f-47a1d0adafde")
 	)
 	(wire
 		(pts
@@ -8102,26 +7788,6 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 187.96) (xy 502.92 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a40679-e396-47a2-ad91-d24f808cb807")
-	)
-	(wire
-		(pts
-			(xy 349.25 175.26) (xy 345.44 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54864645-799b-4c74-ac36-e31b7c9b7cce")
-	)
-	(wire
-		(pts
 			(xy 175.26 177.8) (xy 175.26 175.26)
 		)
 		(stroke
@@ -8132,7 +7798,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 177.8) (xy 247.65 177.8)
+			(xy 360.68 177.8) (xy 349.25 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8152,7 +7818,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 175.26) (xy 284.48 175.26)
+			(xy 382.27 175.26) (xy 386.08 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8179,16 +7845,6 @@
 			(type default)
 		)
 		(uuid "5648e559-7b6d-4c27-b623-c85d93bdb373")
-	)
-	(wire
-		(pts
-			(xy 353.06 187.96) (xy 403.86 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56ab00a9-4d63-4068-9bfe-bf7dbbbf66dc")
 	)
 	(wire
 		(pts
@@ -8239,16 +7895,6 @@
 			(type default)
 		)
 		(uuid "580997d6-ce90-4ca8-9952-85f13720da78")
-	)
-	(wire
-		(pts
-			(xy 384.81 171.45) (xy 386.08 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5877a161-a0a2-43ac-9ad9-0e95452c69ef")
 	)
 	(wire
 		(pts
@@ -8332,7 +7978,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 177.8) (xy 276.86 175.26)
+			(xy 378.46 177.8) (xy 378.46 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8492,16 +8138,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 177.8) (xy 400.05 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f3d3672-0e07-493a-8b2f-50ff53bb82cb")
-	)
-	(wire
-		(pts
 			(xy 175.26 144.78) (xy 167.64 144.78)
 		)
 		(stroke
@@ -8509,16 +8145,6 @@
 			(type default)
 		)
 		(uuid "5fc1e72e-3319-4357-8fab-8a9078747771")
-	)
-	(wire
-		(pts
-			(xy 462.28 147.32) (xy 461.01 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604e2f9c-618d-427c-afa9-1ec375ee5026")
 	)
 	(wire
 		(pts
@@ -8692,13 +8318,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 177.8) (xy 349.25 175.26)
+			(xy 426.72 157.48) (xy 426.72 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "680aabed-1176-4a10-a1bf-94c894a68c17")
+		(uuid "680185b3-b486-4adc-9bdc-ad163942db3d")
 	)
 	(wire
 		(pts
@@ -8892,26 +8518,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 110.49) (xy 435.61 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7068e372-6e55-4dbe-aaf8-d8ebecb1d0dc")
-	)
-	(wire
-		(pts
-			(xy 436.88 199.39) (xy 491.49 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709c4806-3b17-48fa-8127-5668e7d5bc1f")
-	)
-	(wire
-		(pts
 			(xy 341.63 363.22) (xy 340.36 363.22)
 		)
 		(stroke
@@ -8962,16 +8568,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 175.26) (xy 335.28 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72cd4e4a-f01c-4f36-959f-0a6e2d444a4a")
-	)
-	(wire
-		(pts
 			(xy 353.06 68.58) (xy 403.86 68.58)
 		)
 		(stroke
@@ -9019,16 +8615,6 @@
 			(type default)
 		)
 		(uuid "749a170c-da8e-4440-8c58-d3d96649c70e")
-	)
-	(wire
-		(pts
-			(xy 270.51 140.97) (xy 270.51 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74db1900-42d7-4072-a989-281f992ac663")
 	)
 	(wire
 		(pts
@@ -9112,7 +8698,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 171.45) (xy 284.48 171.45)
+			(xy 384.81 171.45) (xy 386.08 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9152,16 +8738,6 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 157.48) (xy 454.66 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7978fea9-b17e-40d4-aa54-38a9407f7441")
-	)
-	(wire
-		(pts
 			(xy 435.61 81.28) (xy 436.88 81.28)
 		)
 		(stroke
@@ -9172,7 +8748,7 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 87.63) (xy 459.74 97.79)
+			(xy 459.74 87.63) (xy 459.74 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9252,23 +8828,13 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 175.26) (xy 269.24 175.26)
+			(xy 378.46 175.26) (xy 370.84 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7becc232-b716-41e9-b222-c066870d5838")
-	)
-	(wire
-		(pts
-			(xy 472.44 171.45) (xy 473.71 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0eb33d-e266-4523-9e6b-ba2be40c838c")
 	)
 	(wire
 		(pts
@@ -9279,16 +8845,6 @@
 			(type default)
 		)
 		(uuid "7c365423-4f25-48fe-abbe-0fd26b746f3b")
-	)
-	(wire
-		(pts
-			(xy 226.06 175.26) (xy 218.44 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c92ffac-db53-4a02-a5e4-ebcfcf960144")
 	)
 	(wire
 		(pts
@@ -9352,13 +8908,13 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 177.8) (xy 378.46 175.26)
+			(xy 200.66 187.96) (xy 353.06 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ea44741-1bf0-49d8-a27f-690905c4dc1c")
+		(uuid "7f1aaf0c-33c4-4bb8-81ca-1947a143b021")
 	)
 	(wire
 		(pts
@@ -9512,16 +9068,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 147.32) (xy 411.48 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865c76a2-9cc6-4925-b103-ab74e487edd8")
-	)
-	(wire
-		(pts
 			(xy 199.39 355.6) (xy 203.2 355.6)
 		)
 		(stroke
@@ -9559,16 +9105,6 @@
 			(type default)
 		)
 		(uuid "8757d7f5-988d-427c-9ac8-ca21c19d956f")
-	)
-	(wire
-		(pts
-			(xy 384.81 140.97) (xy 384.81 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8758b22e-c81a-4d5a-a8f5-e1ac6fc565c9")
 	)
 	(wire
 		(pts
@@ -9662,26 +9198,6 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 147.32) (xy 461.01 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8adf6586-577b-4741-9610-61761284414f")
-	)
-	(wire
-		(pts
-			(xy 436.88 147.32) (xy 436.88 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af9696d-484a-48b1-ae08-0eff765d5df6")
-	)
-	(wire
-		(pts
 			(xy 161.29 250.19) (xy 168.91 250.19)
 		)
 		(stroke
@@ -9702,16 +9218,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 175.26) (xy 360.68 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c638b5d-9c9a-4548-9bce-493503d8e5b2")
-	)
-	(wire
-		(pts
 			(xy 525.78 297.18) (xy 551.18 297.18)
 		)
 		(stroke
@@ -9719,16 +9225,6 @@
 			(type default)
 		)
 		(uuid "8cbd74c5-b89e-4b7e-a27b-e986e0a2d6e8")
-	)
-	(wire
-		(pts
-			(xy 462.28 177.8) (xy 462.28 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e056dff-364a-44b8-9aff-cf08d5cba928")
 	)
 	(wire
 		(pts
@@ -9802,16 +9298,6 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 187.96) (xy 403.86 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9227618b-6969-4c0e-bca4-e37fb4980c64")
-	)
-	(wire
-		(pts
 			(xy 353.06 68.58) (xy 353.06 57.15)
 		)
 		(stroke
@@ -9869,16 +9355,6 @@
 			(type default)
 		)
 		(uuid "93fa64ec-6564-411b-8456-cf946d9d23f1")
-	)
-	(wire
-		(pts
-			(xy 400.05 177.8) (xy 400.05 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "940e4a55-0406-431e-831e-a8d4edc4db61")
 	)
 	(wire
 		(pts
@@ -9962,23 +9438,13 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 187.96) (xy 302.26 176.53)
+			(xy 403.86 187.96) (xy 403.86 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97ab0792-b7f9-4d48-8230-78f2c3813b29")
-	)
-	(wire
-		(pts
-			(xy 477.52 175.26) (xy 472.44 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97aba7f6-3521-4e7e-aee4-ad5637a2069b")
 	)
 	(wire
 		(pts
@@ -10072,7 +9538,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 177.8) (xy 226.06 175.26)
+			(xy 327.66 177.8) (xy 327.66 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10089,16 +9555,6 @@
 			(type default)
 		)
 		(uuid "9c3836f8-2fbc-4ead-9f25-00514825ea9b")
-	)
-	(wire
-		(pts
-			(xy 435.61 140.97) (xy 435.61 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c38c3a6-a2ed-45b7-bf26-ce9c9b6f6273")
 	)
 	(wire
 		(pts
@@ -10142,17 +9598,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 140.97) (xy 232.41 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e2b307e-fff5-462a-81e2-f0d8e1c2e1fc")
-	)
-	(wire
-		(pts
-			(xy 482.6 175.26) (xy 488.95 175.26)
+			(xy 513.08 55.88) (xy 519.43 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10182,7 +9628,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 177.8) (xy 226.06 177.8)
+			(xy 335.28 177.8) (xy 327.66 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10312,16 +9758,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 175.26) (xy 309.88 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0975efd-3387-44d7-8455-4ec908425d25")
-	)
-	(wire
-		(pts
 			(xy 417.83 299.72) (xy 434.34 299.72)
 		)
 		(stroke
@@ -10329,16 +9765,6 @@
 			(type default)
 		)
 		(uuid "a142bd03-3d68-4348-a4a4-d0e98ec8cfbc")
-	)
-	(wire
-		(pts
-			(xy 450.85 144.78) (xy 447.04 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18f046c-4c05-4beb-8c91-671f58787a7b")
 	)
 	(wire
 		(pts
@@ -10552,16 +9978,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 175.26) (xy 411.48 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9af9bd7-c836-4a2a-978e-d6859de81e9b")
-	)
-	(wire
-		(pts
 			(xy 251.46 127) (xy 251.46 115.57)
 		)
 		(stroke
@@ -10639,16 +10055,6 @@
 			(type default)
 		)
 		(uuid "ac8d622c-372a-4412-a52e-67ab23ecd45c")
-	)
-	(wire
-		(pts
-			(xy 502.92 187.96) (xy 502.92 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc60822-3a99-4763-b24c-6b677fb97153")
 	)
 	(wire
 		(pts
@@ -10822,16 +10228,6 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 194.31) (xy 450.85 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b352f6b7-93c9-4026-9712-5a44f97d175a")
-	)
-	(wire
-		(pts
 			(xy 67.31 243.84) (xy 69.85 243.84)
 		)
 		(stroke
@@ -10872,7 +10268,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 55.88) (xy 502.92 55.88)
+			(xy 472.44 55.88) (xy 508 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10952,6 +10348,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 157.48) (xy 426.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7769578-c419-4806-a25d-c08bc62d2513")
+	)
+	(wire
+		(pts
 			(xy 372.11 110.49) (xy 372.11 140.97)
 		)
 		(stroke
@@ -11019,16 +10425,6 @@
 			(type default)
 		)
 		(uuid "bb68f6d9-7900-4a3a-98cc-28feff52af1d")
-	)
-	(wire
-		(pts
-			(xy 200.66 187.96) (xy 251.46 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba9de40-6326-4557-99b9-cd5ad0e51d0c")
 	)
 	(wire
 		(pts
@@ -11182,16 +10578,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 177.8) (xy 327.66 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c089fc29-1630-4c63-90b0-969204e53a0c")
-	)
-	(wire
-		(pts
 			(xy 378.46 114.3) (xy 370.84 114.3)
 		)
 		(stroke
@@ -11262,26 +10648,6 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 144.78) (xy 436.88 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43ffcf6-4f95-4f6a-aeb9-3fde2306a5ad")
-	)
-	(wire
-		(pts
-			(xy 454.66 187.96) (xy 454.66 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c47e530c-abd2-40fc-a9bd-2e9318f30d6c")
-	)
-	(wire
-		(pts
 			(xy 130.81 140.97) (xy 130.81 171.45)
 		)
 		(stroke
@@ -11299,16 +10665,6 @@
 			(type default)
 		)
 		(uuid "c52426f4-21c3-4e68-91b2-9553d56c0a9b")
-	)
-	(wire
-		(pts
-			(xy 491.49 199.39) (xy 491.49 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58150c9-649a-4786-990e-129da7b66ef5")
 	)
 	(wire
 		(pts
@@ -11392,17 +10748,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 140.97) (xy 473.71 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7618a43-f8c2-48e9-bba7-ee707ebf3f32")
-	)
-	(wire
-		(pts
-			(xy 251.46 187.96) (xy 251.46 176.53)
+			(xy 353.06 187.96) (xy 353.06 176.53)
 		)
 		(stroke
 			(width 0)
@@ -11412,7 +10758,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 171.45) (xy 270.51 171.45)
+			(xy 370.84 171.45) (xy 372.11 171.45)
 		)
 		(stroke
 			(width 0)
@@ -11512,16 +10858,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 140.97) (xy 436.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb636b3c-a567-44b1-a3f9-1e5395577f10")
-	)
-	(wire
-		(pts
 			(xy 335.28 116.84) (xy 327.66 116.84)
 		)
 		(stroke
@@ -11529,6 +10865,16 @@
 			(type default)
 		)
 		(uuid "cb8ac146-6ea4-4cc9-b66b-85bd15f99f61")
+	)
+	(wire
+		(pts
+			(xy 426.72 175.26) (xy 421.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba72e4b-932b-4203-b679-6073405621e3")
 	)
 	(wire
 		(pts
@@ -11542,16 +10888,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 175.26) (xy 378.46 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc26a53b-f008-4868-b745-01499d96663e")
-	)
-	(wire
-		(pts
 			(xy 417.83 302.26) (xy 434.34 302.26)
 		)
 		(stroke
@@ -11559,16 +10895,6 @@
 			(type default)
 		)
 		(uuid "cc4854ab-4d0f-4433-9949-e4fb0db7a2dc")
-	)
-	(wire
-		(pts
-			(xy 459.74 97.79) (xy 497.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc61e2c9-a9fd-4e20-89d9-9cc1b80ef3e5")
 	)
 	(wire
 		(pts
@@ -11612,7 +10938,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 177.8) (xy 247.65 175.26)
+			(xy 349.25 177.8) (xy 349.25 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11639,6 +10965,16 @@
 			(type default)
 		)
 		(uuid "cf099810-92c4-4f38-83d3-c6f36c45a863")
+	)
+	(wire
+		(pts
+			(xy 218.44 175.26) (xy 327.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfaa287b-b2cc-405e-8ddd-3e0c90225f90")
 	)
 	(wire
 		(pts
@@ -11669,16 +11005,6 @@
 			(type default)
 		)
 		(uuid "d1618dcb-dc87-4141-a1bd-a2768380d3f3")
-	)
-	(wire
-		(pts
-			(xy 436.88 154.94) (xy 477.52 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d211e32a-4c7a-4f19-a7c7-fffded5b33dd")
 	)
 	(wire
 		(pts
@@ -11732,26 +11058,6 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 175.26) (xy 400.05 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d393ab09-c4ea-4259-812a-a53882e26c68")
-	)
-	(wire
-		(pts
-			(xy 421.64 171.45) (xy 422.91 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3bf14bb-57b2-49e6-920b-9854fb8c442d")
-	)
-	(wire
-		(pts
 			(xy 525.78 287.02) (xy 551.18 287.02)
 		)
 		(stroke
@@ -11772,16 +11078,6 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 161.29) (xy 426.72 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4508ad2-ba5c-4750-a517-00e8c09345df")
-	)
-	(wire
-		(pts
 			(xy 525.78 276.86) (xy 551.18 276.86)
 		)
 		(stroke
@@ -11789,16 +11085,6 @@
 			(type default)
 		)
 		(uuid "d46b2e43-7ba6-4656-bfa9-fc072c4fc428")
-	)
-	(wire
-		(pts
-			(xy 472.44 114.3) (xy 491.49 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c353f0-f661-476b-b91f-0d1087567aa4")
 	)
 	(wire
 		(pts
@@ -11852,7 +11138,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 187.96) (xy 302.26 187.96)
+			(xy 353.06 187.96) (xy 403.86 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11962,7 +11248,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 175.26) (xy 243.84 175.26)
+			(xy 349.25 175.26) (xy 345.44 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11979,36 +11265,6 @@
 			(type default)
 		)
 		(uuid "d8073fd2-bf31-4990-84da-4ec1c0859bc1")
-	)
-	(wire
-		(pts
-			(xy 403.86 187.96) (xy 454.66 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d843e777-b399-4beb-b390-660ea4ff295d")
-	)
-	(wire
-		(pts
-			(xy 422.91 140.97) (xy 422.91 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ca2b98-d19b-4a30-a2f0-1c2d5dd4300d")
-	)
-	(wire
-		(pts
-			(xy 321.31 140.97) (xy 321.31 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9db12aa-7d77-4c80-93ea-5ee26a59719d")
 	)
 	(wire
 		(pts
@@ -12052,16 +11308,6 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 175.26) (xy 462.28 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac7a217-a99e-4746-8e1a-cc000fc3e5b5")
-	)
-	(wire
-		(pts
 			(xy 525.78 281.94) (xy 551.18 281.94)
 		)
 		(stroke
@@ -12089,16 +11335,6 @@
 			(type default)
 		)
 		(uuid "db41d07e-081f-4121-b600-9ea9ee0b2c63")
-	)
-	(wire
-		(pts
-			(xy 370.84 171.45) (xy 372.11 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4c9c42-59e2-4a8c-9d4c-4e72847c4e5c")
 	)
 	(wire
 		(pts
@@ -12139,6 +11375,16 @@
 			(type default)
 		)
 		(uuid "dcaf3982-1d53-4082-beb1-e796d29a575e")
+	)
+	(wire
+		(pts
+			(xy 334.01 140.97) (xy 334.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd795e54-06e8-4bb9-95a0-705fb64d107a")
 	)
 	(wire
 		(pts
@@ -12402,6 +11648,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 175.26) (xy 411.48 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76fed0a-2e1e-469e-a878-1f19ae6bf013")
+	)
+	(wire
+		(pts
 			(xy 525.78 246.38) (xy 551.18 246.38)
 		)
 		(stroke
@@ -12449,16 +11705,6 @@
 			(type default)
 		)
 		(uuid "e8d665f7-c8fd-4092-83b3-b8d9bf123c89")
-	)
-	(wire
-		(pts
-			(xy 497.84 97.79) (xy 497.84 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a10b2c-e6e1-48cb-bd4d-100b6a4e60e8")
 	)
 	(wire
 		(pts
@@ -12612,16 +11858,6 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 114.3) (xy 462.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f009101b-a122-4a28-8cb2-49988a3217a1")
-	)
-	(wire
-		(pts
 			(xy 231.14 259.08) (xy 238.76 259.08)
 		)
 		(stroke
@@ -12649,16 +11885,6 @@
 			(type default)
 		)
 		(uuid "f1c49304-680c-43e9-8517-8ff320c804f1")
-	)
-	(wire
-		(pts
-			(xy 353.06 187.96) (xy 353.06 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1c971aa-4fa8-4082-adaf-90b4d41b5a8e")
 	)
 	(wire
 		(pts
@@ -12702,16 +11928,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 140.97) (xy 283.21 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f31f8274-3f56-4aa8-ba41-3a4dfe11e3f7")
-	)
-	(wire
-		(pts
 			(xy 525.78 264.16) (xy 551.18 264.16)
 		)
 		(stroke
@@ -12742,16 +11958,6 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 177.8) (xy 436.88 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3f65fd9-5572-4321-8c91-3ef3ed17ac5c")
-	)
-	(wire
-		(pts
 			(xy 260.35 368.3) (xy 260.35 367.03)
 		)
 		(stroke
@@ -12772,7 +11978,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 171.45) (xy 321.31 171.45)
+			(xy 421.64 171.45) (xy 422.91 171.45)
 		)
 		(stroke
 			(width 0)
@@ -12839,6 +12045,16 @@
 			(type default)
 		)
 		(uuid "f65973a1-b38e-465f-9915-f5f5e8814ecb")
+	)
+	(wire
+		(pts
+			(xy 372.11 140.97) (xy 372.11 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6833851-de1d-4ac7-a80e-d1a41bb4a4a9")
 	)
 	(wire
 		(pts
@@ -13141,7 +12357,7 @@
 		(uuid "070ff10d-5aac-44f1-a02e-b67d86c5e746")
 	)
 	(label "3V3"
-		(at 259.08 175.26 180)
+		(at 360.68 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13281,16 +12497,6 @@
 		(uuid "29a96035-2e1f-438d-ad49-01a9f1977a22")
 	)
 	(label "3V3"
-		(at 411.48 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "29fd331f-8473-4673-b1de-95edaf601d9e")
-	)
-	(label "3V3"
 		(at 335.28 85.09 180)
 		(effects
 			(font
@@ -13340,16 +12546,6 @@
 		)
 		(uuid "30d04f5b-d48c-4cd6-8ea1-382f255e782e")
 	)
-	(label "3V3"
-		(at 335.28 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "31c3b51e-a806-45bf-905f-f46060d765b0")
-	)
 	(label "VBUS"
 		(at 194.31 332.74 0)
 		(effects
@@ -13361,7 +12557,7 @@
 		(uuid "367801b5-d119-49d7-9601-8e3fd01b7a1b")
 	)
 	(label "LED_DRV"
-		(at 488.95 175.26 0)
+		(at 519.43 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13431,7 +12627,7 @@
 		(uuid "4918a671-bff6-42c5-91d3-267afa13dc31")
 	)
 	(label "3V3"
-		(at 284.48 175.26 180)
+		(at 386.08 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13441,7 +12637,7 @@
 		(uuid "49654449-8efd-42e5-aeaf-578841a9b62a")
 	)
 	(label "3V3"
-		(at 309.88 175.26 180)
+		(at 411.48 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13530,16 +12726,6 @@
 		)
 		(uuid "5aa954bc-58e0-43be-bee2-3ca92b775a9c")
 	)
-	(label "3V3"
-		(at 462.28 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5bf30262-baea-4a92-b7bc-5a0cbd8513e6")
-	)
 	(label "USB_N"
 		(at 551.18 241.3 0)
 		(effects
@@ -13559,16 +12745,6 @@
 			(justify left bottom)
 		)
 		(uuid "5c61a5b0-84b1-4c3a-aa91-10f44fd1c733")
-	)
-	(label "3V3"
-		(at 462.28 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f137d31-2bcb-49d4-b5fe-281708ab65b8")
 	)
 	(label "3V3"
 		(at 132.08 114.3 180)
@@ -13619,16 +12795,6 @@
 			(justify left bottom)
 		)
 		(uuid "67b9b131-7e8c-44ca-a6c4-97fbc870b252")
-	)
-	(label "3V3"
-		(at 386.08 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69458329-7bd7-4b9d-abd2-a707ffbfc80f")
 	)
 	(label "3V3"
 		(at 360.68 144.78 180)
@@ -13840,16 +13006,6 @@
 		)
 		(uuid "8179b84d-4050-4c7c-a2cd-bb7f81f2805d")
 	)
-	(label "3V3"
-		(at 462.28 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "826c8d85-af55-4e0d-9324-4ee4f13bc710")
-	)
 	(label "GPIO3"
 		(at 334.01 33.02 0)
 		(effects
@@ -14021,7 +13177,7 @@
 		(uuid "9d9c813b-5ec3-4bf2-9820-449c0e6a3d8a")
 	)
 	(label "3V3"
-		(at 233.68 175.26 180)
+		(at 335.28 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14069,16 +13225,6 @@
 			(justify left bottom)
 		)
 		(uuid "a393ea0d-ccdf-43db-985e-8f994dd51de2")
-	)
-	(label "3V3"
-		(at 436.88 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3b79b70-181c-474e-8b73-6e51317a3a16")
 	)
 	(label "3V3"
 		(at 182.88 55.88 180)
@@ -14239,16 +13385,6 @@
 			(justify left bottom)
 		)
 		(uuid "bdd1357e-9ef2-416b-b8a0-0d1da4fd0665")
-	)
-	(label "3V3"
-		(at 436.88 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf4a1a55-5b58-4bc9-a9a2-79fbec574d9b")
 	)
 	(label "3V3"
 		(at 157.48 114.3 180)
@@ -14609,16 +13745,6 @@
 			(justify left bottom)
 		)
 		(uuid "efdc65b8-dfbc-4881-bd8b-284e0768eb82")
-	)
-	(label "3V3"
-		(at 360.68 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1faf6a2-c37f-4a5f-bb57-753de05cbe39")
 	)
 	(label "VBUS"
 		(at 328.93 356.87 0)
@@ -15694,71 +14820,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 433.07 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08e5a317-40ba-48d2-8caa-9a0e199b4414")
-		(property "Reference" "#PWR0139"
-			(at 433.07 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 433.197 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 433.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 433.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 433.07 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c3ddb8b-0070-4526-91f5-3754d1381cd1")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 128.27 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16012,90 +15073,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 416.56 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b48e2b8-10cf-4147-b7a0-70b898fdb50e")
-		(property "Reference" "SL68"
-			(at 417.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 416.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 416.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 416.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 416.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 416.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53511591-a2e0-44f5-b831-b5a0740961a2")
-		)
-		(pin "3"
-			(uuid "74dd25fd-912f-4561-a39c-1f88039e13b2")
-		)
-		(pin "4"
-			(uuid "8daf71a9-c0e6-4d1b-9404-37cfd8aa6d86")
-		)
-		(pin "2"
-			(uuid "b7c34776-dd20-43ab-9e1a-8b44764a4bff")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL68")
 					(unit 1)
 				)
 			)
@@ -17070,82 +16047,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 441.96 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1313f65e-0a4d-4cd6-9373-c4748935c8c3")
-		(property "Reference" "SW69"
-			(at 441.96 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "pgup"
-			(at 441.96 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 441.96 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 441.96 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 441.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 441.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e06829e7-e896-4c46-92a9-3831f126a726")
-		)
-		(pin "1"
-			(uuid "18e4152f-b8a6-4689-8045-3189b0f37b4a")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 238.76 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17280,84 +16181,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 433.07 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13f0b361-9f88-4dc8-81ee-c46afe9a713c")
-		(property "Reference" "C69"
-			(at 435.61 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 435.61 179.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 433.07 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 433.07 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 433.07 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 433.07 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "598968a4-048d-48c2-b06e-4f48708e92bf")
-		)
-		(pin "2"
-			(uuid "039e9726-f727-4cfd-8958-5ae0c049a0f1")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -18973,7 +17796,7 @@
 	)
 	(symbol
 		(lib_id "user_created:Smart LED")
-		(at 264.16 176.53 0)
+		(at 365.76 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18982,7 +17805,7 @@
 		(fields_autoplaced yes)
 		(uuid "235116cb-d73f-4e35-b3a6-765a337baabc")
 		(property "Reference" "SL62"
-			(at 265.43 173.99 0)
+			(at 367.03 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18992,7 +17815,7 @@
 			)
 		)
 		(property "Value" "Smart LED"
-			(at 264.16 171.45 0)
+			(at 365.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19000,7 +17823,7 @@
 			)
 		)
 		(property "Footprint" "user_added:Smart LED 6028"
-			(at 264.16 171.45 0)
+			(at 365.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19009,7 +17832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 171.45 0)
+			(at 365.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +17841,7 @@
 			)
 		)
 		(property "Description" "Smart LED with Reversed Pads"
-			(at 264.16 171.45 0)
+			(at 365.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19027,7 +17850,7 @@
 			)
 		)
 		(property "LCSC Part #" "C9900170687"
-			(at 264.16 176.53 0)
+			(at 365.76 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19121,82 +17944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 467.36 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25574c5a-3a15-48c4-8fb9-db7a31fc13e1")
-		(property "Reference" "SW56"
-			(at 467.36 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "end"
-			(at 467.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 467.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 467.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 467.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 467.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "de6b1d7f-cf4d-4af4-84b2-a46fa673674c")
-		)
-		(pin "1"
-			(uuid "c51ae5b7-d358-44ed-9646-3b11ad79e344")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 184.15 355.6 0)
 		(unit 1)
@@ -19263,147 +18010,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 472.44 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25dd963f-a392-4347-8598-88fd6e60fbb3")
-		(property "Reference" "#PWR070"
-			(at 472.44 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 472.567 121.2342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 472.44 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 472.44 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 472.44 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a180b77c-c217-4a3e-8b1d-0eb49e954723")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 467.36 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "260f1673-76e0-42e1-a7ce-91d6a643efea")
-		(property "Reference" "SW70"
-			(at 467.36 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "home"
-			(at 467.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 467.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 467.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 467.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 467.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3aaf4f77-53d6-4040-aff1-a871dae954a9")
-		)
-		(pin "1"
-			(uuid "68151766-030e-4c54-adbb-0650ed1cc3ca")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 306.07 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19462,84 +18068,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 356.87 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "280e681d-7009-4bb5-a708-b2a231135a4a")
-		(property "Reference" "C66"
-			(at 359.41 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 359.41 179.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 356.87 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 356.87 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 356.87 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 356.87 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bbe495b6-251a-4a8e-bd40-4243eda40aac")
-		)
-		(pin "2"
-			(uuid "37bc7881-bf6f-4b90-bda3-66e864c4b8fa")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -19856,7 +18384,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 255.27 177.8 0)
+		(at 356.87 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19865,7 +18393,7 @@
 		(fields_autoplaced yes)
 		(uuid "2afd5b14-2188-4ce8-9522-6bf775c2e89a")
 		(property "Reference" "C62"
-			(at 257.81 176.5362 0)
+			(at 359.41 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19874,7 +18402,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 257.81 179.0762 0)
+			(at 359.41 179.0762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19883,7 +18411,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 255.27 177.8 0)
+			(at 356.87 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19892,7 +18420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 177.8 0)
+			(at 356.87 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19901,7 +18429,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 255.27 177.8 0)
+			(at 356.87 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19910,7 +18438,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 255.27 177.8 0)
+			(at 356.87 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20118,7 +18646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 467.36 76.2 0)
 			(effects
 				(font
@@ -20766,84 +19294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 433.07 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3001d032-dad1-45bf-b3c2-ca30a4fe131a")
-		(property "Reference" "C55"
-			(at 435.61 146.0562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 435.61 148.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 433.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 433.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 433.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 433.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38349099-1dfb-462e-bf68-0eea941ca8e4")
-		)
-		(pin "2"
-			(uuid "da52ee26-0b13-4021-9489-b42dba058900")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK")
 		(at 149.86 110.49 0)
 		(unit 1)
@@ -21306,7 +19756,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 280.67 177.8 0)
+		(at 382.27 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21315,7 +19765,7 @@
 		(fields_autoplaced yes)
 		(uuid "33c224dd-e958-40d4-8edf-3ee8928dbd70")
 		(property "Reference" "C63"
-			(at 283.21 176.5362 0)
+			(at 384.81 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21324,7 +19774,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 283.21 179.0762 0)
+			(at 384.81 179.0762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21333,7 +19783,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 280.67 177.8 0)
+			(at 382.27 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21342,7 +19792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 177.8 0)
+			(at 382.27 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21351,7 +19801,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 280.67 177.8 0)
+			(at 382.27 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21360,7 +19810,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 280.67 177.8 0)
+			(at 382.27 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22066,71 +20516,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 421.64 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36ce5919-f50e-4f5d-84de-a055498540a9")
-		(property "Reference" "#PWR0124"
-			(at 421.64 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 421.767 182.1942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 421.64 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 421.64 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 421.64 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "270081ef-aca9-4b5d-869d-4b43e73adb33")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 407.67 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22408,71 +20793,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 433.07 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "390913dc-ffde-461c-9315-176bf4078927")
-		(property "Reference" "#PWR0111"
-			(at 433.07 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 433.197 154.2542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 433.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 433.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 433.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0d76530-6c37-4b19-8e17-f206b764c1cd")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -22766,71 +21086,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 447.04 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a50195a-62a2-4a58-b207-89c7172898be")
-		(property "Reference" "#PWR0125"
-			(at 447.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 447.167 182.1942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 447.04 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 447.04 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 447.04 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c67c076a-d4bd-4350-9089-35f1b95c4fda")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 345.44 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22920,7 +21175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
 			(at 441.96 105.41 0)
 			(effects
 				(font
@@ -23484,7 +21739,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 480.06 175.26 90)
+		(at 510.54 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23493,7 +21748,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e8b72e2-9e64-4feb-a64e-37277cddefa2")
 		(property "Reference" "R1"
-			(at 480.06 170.18 90)
+			(at 510.54 50.8 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -23501,7 +21756,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 480.06 172.72 90)
+			(at 510.54 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23509,7 +21764,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 480.06 175.26 0)
+			(at 510.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23518,7 +21773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 480.06 175.26 0)
+			(at 510.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23527,7 +21782,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 480.06 175.26 0)
+			(at 510.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23536,7 +21791,7 @@
 			)
 		)
 		(property "LCSC Part #" "C23182"
-			(at 480.06 175.26 0)
+			(at 510.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23554,86 +21809,6 @@
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 454.66 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f0ee063-e2e2-4cd1-9cd8-b1972bdd362a")
-		(property "Reference" "D35"
-			(at 454.66 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DAV70"
-			(at 454.66 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 454.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 454.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 454.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C68978"
-			(at 454.66 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32dcec57-ff35-49d0-8f7a-a7ee3ea20204")
-		)
-		(pin "3"
-			(uuid "a8c59c0e-d10d-4284-bdfa-ec4f0e019f75")
-		)
-		(pin "2"
-			(uuid "a37fcd11-68e5-4ab9-92a5-51b6102c0078")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -24085,7 +22260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 180.34 0)
+		(at 382.27 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24093,7 +22268,7 @@
 		(dnp no)
 		(uuid "448234b9-9d04-4af3-ac21-55a98bb5a8e0")
 		(property "Reference" "#PWR0133"
-			(at 280.67 186.69 0)
+			(at 382.27 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24102,7 +22277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.797 184.7342 0)
+			(at 382.397 184.7342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24110,7 +22285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 180.34 0)
+			(at 382.27 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24119,7 +22294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 180.34 0)
+			(at 382.27 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24128,7 +22303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 180.34 0)
+			(at 382.27 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24571,7 +22746,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 177.8 0)
+		(at 345.44 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24579,7 +22754,7 @@
 		(dnp no)
 		(uuid "49389319-ea2b-4e8b-87ac-2ee55099c8f5")
 		(property "Reference" "#PWR0117"
-			(at 243.84 184.15 0)
+			(at 345.44 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24588,7 +22763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.967 182.1942 0)
+			(at 345.567 182.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24596,7 +22771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 177.8 0)
+			(at 345.44 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24605,7 +22780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 177.8 0)
+			(at 345.44 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24614,7 +22789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 177.8 0)
+			(at 345.44 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24792,7 +22967,7 @@
 	)
 	(symbol
 		(lib_id "user_created:Smart LED")
-		(at 314.96 176.53 0)
+		(at 416.56 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24801,7 +22976,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a22b38f-0633-4529-b8f4-28e46174b9b7")
 		(property "Reference" "SL64"
-			(at 316.23 173.99 0)
+			(at 417.83 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24811,7 +22986,7 @@
 			)
 		)
 		(property "Value" "Smart LED"
-			(at 314.96 171.45 0)
+			(at 416.56 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24819,7 +22994,7 @@
 			)
 		)
 		(property "Footprint" "user_added:Smart LED 6028"
-			(at 314.96 171.45 0)
+			(at 416.56 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24828,7 +23003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 314.96 171.45 0)
+			(at 416.56 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24837,7 +23012,7 @@
 			)
 		)
 		(property "Description" "Smart LED with Reversed Pads"
-			(at 314.96 171.45 0)
+			(at 416.56 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24846,7 +23021,7 @@
 			)
 		)
 		(property "LCSC Part #" "C9900170687"
-			(at 314.96 176.53 0)
+			(at 416.56 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25454,71 +23629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 458.47 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50b3139f-b989-4e9c-a968-1ab1765b15f1")
-		(property "Reference" "#PWR0140"
-			(at 458.47 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 458.597 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 458.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 458.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 458.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14b37446-320a-4c07-bcec-53149e119a47")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 88.9 383.54 0)
 		(unit 1)
@@ -25838,71 +23948,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SL48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 458.47 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "543e3792-815b-4f60-977a-665bc31bd4a1")
-		(property "Reference" "#PWR084"
-			(at 458.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 458.597 123.7742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 458.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 458.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 458.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48d7192a-6631-4219-8c2e-a29f683b3d6e")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -26761,7 +24806,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 294.64 177.8 0)
+		(at 396.24 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26769,7 +24814,7 @@
 		(dnp no)
 		(uuid "5e01a88f-fc30-4940-beba-4760359424d4")
 		(property "Reference" "#PWR0119"
-			(at 294.64 184.15 0)
+			(at 396.24 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26778,7 +24823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.767 182.1942 0)
+			(at 396.367 182.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26786,7 +24831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 177.8 0)
+			(at 396.24 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26795,7 +24840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 177.8 0)
+			(at 396.24 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26804,7 +24849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 177.8 0)
+			(at 396.24 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27635,71 +25680,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 370.84 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64a44b89-f750-464d-abb1-0c2f9359708a")
-		(property "Reference" "#PWR0122"
-			(at 370.84 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 370.967 182.1942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 370.84 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26dc748e-a051-40e5-b561-100d8bf7e6d1")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 280.67 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28243,82 +26223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 416.56 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68bb3c70-0b57-4122-a0a4-e3162afe0eb4")
-		(property "Reference" "SW68"
-			(at 416.56 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "right"
-			(at 416.56 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 416.56 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 416.56 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 416.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 416.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "63d704bf-d0dc-46c3-bc3d-ccf05929c918")
-		)
-		(pin "1"
-			(uuid "6749d05d-a67c-44e7-98a3-e3b8d5db8a3a")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 68.58 326.39 180)
 		(unit 1)
@@ -28398,7 +26302,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 238.76 171.45 0)
+		(at 340.36 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28407,23 +26311,23 @@
 		(fields_autoplaced yes)
 		(uuid "6902f54e-2180-4f65-98c2-96545e7ca086")
 		(property "Reference" "SW61"
-			(at 238.76 163.83 0)
+			(at 340.36 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "space"
-			(at 238.76 166.37 0)
+		(property "Value" "ralt"
+			(at 340.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
-			(at 238.76 166.37 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+			(at 340.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28432,7 +26336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 166.37 0)
+			(at 340.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28441,7 +26345,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 238.76 171.45 0)
+			(at 340.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28450,11 +26354,12 @@
 			)
 		)
 		(property "LCSC Part #" "C5333465"
-			(at 238.76 171.45 0)
+			(at 340.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28543,82 +26448,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SW44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 365.76 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69d7b16a-f032-4bb4-ab02-4ede116b06b4")
-		(property "Reference" "SW66"
-			(at 365.76 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "left"
-			(at 365.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 365.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 365.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 365.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 365.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "db720ef4-228a-4422-8671-855c90c75669")
-		)
-		(pin "1"
-			(uuid "9da1fd86-e04a-4872-a8ea-fad2f6c186b7")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -28768,90 +26597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 365.76 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6acb759f-7110-40f1-9233-39230ede745a")
-		(property "Reference" "SL66"
-			(at 367.03 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 365.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 365.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 365.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 365.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 365.76 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5825bad8-e23e-49b9-97f0-73be1796e73c")
-		)
-		(pin "3"
-			(uuid "5ceb61d4-bd5c-4937-96cb-64b0e522e63b")
-		)
-		(pin "4"
-			(uuid "1c201de7-ee69-4c94-8ba2-af6cd914b3f4")
-		)
-		(pin "2"
-			(uuid "5e93dc0a-671a-4e8c-b87b-579ca44131eb")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.84 116.84 0)
 		(unit 1)
@@ -28911,71 +26656,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 356.87 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b4f0783-b2af-470f-b34d-e3207087f263")
-		(property "Reference" "#PWR0136"
-			(at 356.87 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 356.997 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ba5221d-6b61-4b93-a796-dc3f8efcd6b9")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -29259,71 +26939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 331.47 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6eb5b670-53af-4646-bf91-18b64a104ca1")
-		(property "Reference" "#PWR0135"
-			(at 331.47 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 331.597 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 331.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 331.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63a9d83d-c431-4481-ac08-969f6baa930a")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 407.67 58.42 0)
 		(unit 1)
@@ -29497,7 +27112,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 289.56 171.45 0)
+		(at 391.16 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29506,23 +27121,23 @@
 		(fields_autoplaced yes)
 		(uuid "71b0c692-e2e8-45f5-a3b6-999f1f945348")
 		(property "Reference" "SW63"
-			(at 289.56 163.83 0)
+			(at 391.16 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "rfn"
-			(at 289.56 166.37 0)
+		(property "Value" "menu"
+			(at 391.16 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 289.56 166.37 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+			(at 391.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29531,7 +27146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 166.37 0)
+			(at 391.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29540,7 +27155,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 289.56 171.45 0)
+			(at 391.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29549,11 +27164,12 @@
 			)
 		)
 		(property "LCSC Part #" "C5333465"
-			(at 289.56 171.45 0)
+			(at 391.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -29741,7 +27357,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 251.46 171.45 0)
+		(at 353.06 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29750,7 +27366,7 @@
 		(fields_autoplaced yes)
 		(uuid "72f4d318-078a-47fc-b8e3-c8e46eb7f85d")
 		(property "Reference" "D31"
-			(at 251.46 166.37 0)
+			(at 353.06 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29758,7 +27374,7 @@
 			)
 		)
 		(property "Value" "DAV70"
-			(at 251.46 168.91 0)
+			(at 353.06 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29766,7 +27382,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 251.46 171.45 0)
+			(at 353.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29775,7 +27391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 171.45 0)
+			(at 353.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29784,7 +27400,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 251.46 171.45 0)
+			(at 353.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29793,7 +27409,7 @@
 			)
 		)
 		(property "LCSC Part #" "C68978"
-			(at 251.46 171.45 0)
+			(at 353.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29897,71 +27513,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SL28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 447.04 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73a0e4ce-c4f5-454f-bd09-b02e5782a2fe")
-		(property "Reference" "#PWR097"
-			(at 447.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 447.167 151.7142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 447.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 447.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 447.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53fdb809-4801-405c-8645-8c8e6ea37e5b")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -30189,82 +27740,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 340.36 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "750e1859-dc3a-406c-badb-c0030556b871")
-		(property "Reference" "SW65"
-			(at 340.36 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "rctrl"
-			(at 340.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
-			(at 340.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 340.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 340.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3daf6cd5-b48b-40d7-b854-14934f9da17a")
-		)
-		(pin "1"
-			(uuid "16f31f1f-6434-499d-8038-e5caaac8e020")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -30524,7 +27999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.75u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
 			(at 467.36 46.99 0)
 			(effects
 				(font
@@ -31030,71 +28505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 396.24 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7988378b-6f51-405e-91fe-17fda3e8ff5f")
-		(property "Reference" "#PWR0123"
-			(at 396.24 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 396.367 182.1942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 396.24 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 396.24 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39ca6c8b-4199-4c64-bb58-77e8815c1ca7")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK")
 		(at 353.06 110.49 0)
 		(unit 1)
@@ -31174,84 +28584,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 441.96 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a3cc49c-363e-4e46-865f-af2968797917")
-		(property "Reference" "SW55"
-			(at 441.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "up"
-			(at 441.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 441.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 441.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 441.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 441.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c1b5f3d8-29f1-4286-93b6-503d57a8e15d")
-		)
-		(pin "1"
-			(uuid "9134ed6c-0947-45b4-ba14-aa7ead757a5f")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 302.26 171.45 0)
+		(at 403.86 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31260,7 +28594,7 @@
 		(fields_autoplaced yes)
 		(uuid "7afc4286-66fb-4896-9df6-d60184efb5c8")
 		(property "Reference" "D32"
-			(at 302.26 165.1 0)
+			(at 403.86 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31268,7 +28602,7 @@
 			)
 		)
 		(property "Value" "DAV70"
-			(at 302.26 167.64 0)
+			(at 403.86 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31276,7 +28610,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 302.26 171.45 0)
+			(at 403.86 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31285,7 +28619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 302.26 171.45 0)
+			(at 403.86 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31294,7 +28628,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 302.26 171.45 0)
+			(at 403.86 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31303,7 +28637,7 @@
 			)
 		)
 		(property "LCSC Part #" "C68978"
-			(at 302.26 171.45 0)
+			(at 403.86 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31755,71 +29089,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 407.67 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "802092b7-d2e2-4251-be25-ea2a80c6ad6a")
-		(property "Reference" "#PWR0138"
-			(at 407.67 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 407.797 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 407.67 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 407.67 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 407.67 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "204a7668-7ffe-4651-a865-df02fab072f2")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 331.47 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32171,90 +29440,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 467.36 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82b27045-c9ac-40fd-9e9a-e173e8524aa5")
-		(property "Reference" "SL42"
-			(at 468.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 467.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 467.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 467.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 467.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 467.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13ab9530-2ef0-4b53-bb78-c8934715ac2b")
-		)
-		(pin "3"
-			(uuid "7c72643f-ab10-4022-9a0f-c7363f598968")
-		)
-		(pin "4"
-			(uuid "11ced0e4-558a-4037-b141-d2dec3166b1b")
-		)
-		(pin "2"
-			(uuid "9f0f3435-2997-47fd-9bfe-2112f7023fe0")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL42")
 					(unit 1)
 				)
 			)
@@ -33018,7 +30203,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 314.96 171.45 0)
+		(at 416.56 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33027,15 +30212,15 @@
 		(fields_autoplaced yes)
 		(uuid "895be3bd-4d0e-4d90-8883-6f93d2d26aa7")
 		(property "Reference" "SW64"
-			(at 314.96 163.83 0)
+			(at 416.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ralt"
-			(at 314.96 166.37 0)
+		(property "Value" "rctrl"
+			(at 416.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33043,7 +30228,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
-			(at 314.96 166.37 0)
+			(at 416.56 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33052,7 +30237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 314.96 166.37 0)
+			(at 416.56 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33061,7 +30246,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 314.96 171.45 0)
+			(at 416.56 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33070,11 +30255,12 @@
 			)
 		)
 		(property "LCSC Part #" "C5333465"
-			(at 314.96 171.45 0)
+			(at 416.56 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -33816,7 +31002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 177.8 0)
+		(at 421.64 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33824,7 +31010,7 @@
 		(dnp no)
 		(uuid "8d356bd1-a9ec-4bef-8293-7ade559931a8")
 		(property "Reference" "#PWR0120"
-			(at 320.04 184.15 0)
+			(at 421.64 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33833,7 +31019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.167 182.1942 0)
+			(at 421.767 182.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33841,7 +31027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 177.8 0)
+			(at 421.64 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33850,7 +31036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 177.8 0)
+			(at 421.64 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33859,7 +31045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 177.8 0)
+			(at 421.64 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34482,71 +31668,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 345.44 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90a19ad2-1410-4950-b4dc-8454fc00122f")
-		(property "Reference" "#PWR0121"
-			(at 345.44 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 345.567 182.1942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3ffd436-6b0c-4bca-a320-7555351efd67")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -35643,7 +32764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 180.34 0)
+		(at 356.87 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35651,7 +32772,7 @@
 		(dnp no)
 		(uuid "9aa9ce3c-7eac-4857-973f-43b99344f38c")
 		(property "Reference" "#PWR0132"
-			(at 255.27 186.69 0)
+			(at 356.87 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35660,7 +32781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.397 184.7342 0)
+			(at 356.997 184.7342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35668,7 +32789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 180.34 0)
+			(at 356.87 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35677,7 +32798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 180.34 0)
+			(at 356.87 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35686,7 +32807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 180.34 0)
+			(at 356.87 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36884,7 +34005,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 180.34 0)
+		(at 331.47 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36892,7 +34013,7 @@
 		(dnp no)
 		(uuid "a3304fc5-57a3-497f-8268-7ac3d0959a06")
 		(property "Reference" "#PWR0131"
-			(at 229.87 186.69 0)
+			(at 331.47 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36901,7 +34022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.997 184.7342 0)
+			(at 331.597 184.7342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36909,7 +34030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 180.34 0)
+			(at 331.47 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36918,7 +34039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 180.34 0)
+			(at 331.47 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36927,7 +34048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 180.34 0)
+			(at 331.47 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37317,86 +34438,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 353.06 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a545dbcf-1ed9-4fc1-bfb8-286e2d3f1540")
-		(property "Reference" "D33"
-			(at 353.06 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DAV70"
-			(at 353.06 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 353.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 353.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C68978"
-			(at 353.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd85914a-d6b4-4dd1-86e8-f6ada8142cf9")
-		)
-		(pin "3"
-			(uuid "47f0d40b-db35-4d04-88d4-c1e0395c6b0a")
-		)
-		(pin "2"
-			(uuid "902b43bf-4b9b-4682-acba-779ff7aacc8c")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -38061,7 +35102,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.07 180.34 0)
+		(at 407.67 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38069,7 +35110,7 @@
 		(dnp no)
 		(uuid "aaa25776-3437-428c-8040-1f71c0f9a418")
 		(property "Reference" "#PWR0134"
-			(at 306.07 186.69 0)
+			(at 407.67 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38078,7 +35119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.197 184.7342 0)
+			(at 407.797 184.7342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38086,7 +35127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 180.34 0)
+			(at 407.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38095,7 +35136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 180.34 0)
+			(at 407.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38104,7 +35145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 180.34 0)
+			(at 407.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38792,84 +35833,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 458.47 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae2329b3-e2a4-41c6-bf7c-2cbbad054e65")
-		(property "Reference" "C42"
-			(at 461.01 115.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 461.01 118.1162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 458.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 458.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 458.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 458.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a9f457d-4ff5-4c09-8153-442113bbd1ce")
-		)
-		(pin "2"
-			(uuid "37dc47b0-f91c-40e1-b439-a08e893a4fa9")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 458.47 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39545,82 +36508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 391.16 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b48b5d58-4f49-4ac0-8c53-0cc1b7ee9ae2")
-		(property "Reference" "SW67"
-			(at 391.16 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "down"
-			(at 391.16 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 391.16 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 391.16 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 391.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 391.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "055e09f5-4711-4c3b-811b-fed3e56211d7")
-		)
-		(pin "1"
-			(uuid "172d5935-fb20-4be5-8c7e-5b58dc1fb972")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 167.64 87.63 0)
 		(unit 1)
@@ -39776,7 +36663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.75u"
 			(at 416.56 135.89 0)
 			(effects
 				(font
@@ -39821,71 +36708,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SW54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 472.44 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6d6341d-861c-4df6-a5fd-ed192e2679bc")
-		(property "Reference" "#PWR098"
-			(at 472.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 472.567 151.7142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 472.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 472.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 472.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68133231-2c53-4c32-a96b-e3613633c019")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -40115,7 +36937,7 @@
 				)
 			)
 		)
-		(property "Value" "lfn"
+		(property "Value" "space"
 			(at 213.36 166.37 0)
 			(effects
 				(font
@@ -40123,7 +36945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_6.25u"
 			(at 213.36 166.37 0)
 			(effects
 				(font
@@ -40571,7 +37393,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 306.07 177.8 0)
+		(at 407.67 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40580,7 +37402,7 @@
 		(fields_autoplaced yes)
 		(uuid "c13f2d96-1b91-467a-90fb-167cefa4a9cb")
 		(property "Reference" "C64"
-			(at 308.61 176.5362 0)
+			(at 410.21 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40589,7 +37411,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 308.61 179.0762 0)
+			(at 410.21 179.0762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40598,7 +37420,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 306.07 177.8 0)
+			(at 407.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40607,7 +37429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 177.8 0)
+			(at 407.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40616,7 +37438,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 306.07 177.8 0)
+			(at 407.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40625,7 +37447,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 306.07 177.8 0)
+			(at 407.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40933,84 +37755,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 407.67 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c53feae4-367f-43b7-a155-487f6197b686")
-		(property "Reference" "C68"
-			(at 410.21 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 410.21 179.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 407.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 407.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 407.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 407.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "deb993dd-999e-4d21-b5a9-02669cbe6674")
-		)
-		(pin "2"
-			(uuid "d6a93015-9eb3-4286-84a3-43b66d8a63ad")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 39.37 320.04 0)
 		(unit 1)
@@ -41147,149 +37891,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SW24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 331.47 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c674c148-a809-47af-9945-f61163c6c7d1")
-		(property "Reference" "C65"
-			(at 334.01 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 334.01 179.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 331.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 331.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 331.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 331.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8558645c-e3b4-4ec8-adf3-85ec1c093ed7")
-		)
-		(pin "2"
-			(uuid "783796b1-be1e-4612-a7db-98bd9deb0d9f")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 382.27 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6ae08aa-cda6-41ba-a763-f5302638868a")
-		(property "Reference" "#PWR0137"
-			(at 382.27 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 382.397 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e1e32f2-e94f-4317-947a-ac249b96db30")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -41773,82 +38374,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 467.36 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca54c8c9-7750-43e7-b619-f44de51e8277")
-		(property "Reference" "SW42"
-			(at 467.36 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "pgdown"
-			(at 467.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 467.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 467.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 467.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5333465"
-			(at 467.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dedc7c2b-42de-44af-b94c-6b6b6c96039b")
-		)
-		(pin "1"
-			(uuid "abfccf46-038a-45c9-a8e1-aa41a55b8c93")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 97.79 234.95 90)
 		(unit 1)
@@ -42068,90 +38593,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SL24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 467.36 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd82d587-b62f-4b2d-ade2-9c63e8b149ed")
-		(property "Reference" "SL56"
-			(at 468.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 467.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 467.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 467.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 467.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 467.36 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e197c24-970a-4f48-bc97-860010f928f4")
-		)
-		(pin "3"
-			(uuid "4acbda2c-63fc-47ea-814d-2f5a7dd86485")
-		)
-		(pin "4"
-			(uuid "090e59e0-a11a-4a36-b5f2-34438b4fc19e")
-		)
-		(pin "2"
-			(uuid "5a370259-0634-40e4-b3cc-1695d3449aec")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL56")
 					(unit 1)
 				)
 			)
@@ -42755,71 +39196,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 472.44 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf56bf0f-20c5-4344-abe1-7f1881cf9af4")
-		(property "Reference" "#PWR0126"
-			(at 472.44 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 472.567 182.1942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 472.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 472.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 472.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b51fa7a8-af00-46a9-b468-b572b78d6532")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 447.04 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43040,90 +39416,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 340.36 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0a58b1b-1689-4e3b-b4c7-b08e434ef496")
-		(property "Reference" "SL65"
-			(at 341.63 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 340.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 340.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 340.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 340.36 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9239b35e-b0f4-4a20-a3b4-24fd41b8c394")
-		)
-		(pin "3"
-			(uuid "7ca1f19b-9af3-4d4a-9d7a-c417f64309cf")
-		)
-		(pin "4"
-			(uuid "90d48276-c256-403e-a423-af2e5ed2ddb0")
-		)
-		(pin "2"
-			(uuid "af980ad5-132a-4fd5-a5aa-237812d755d0")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL65")
 					(unit 1)
 				)
 			)
@@ -43695,90 +39987,6 @@
 	)
 	(symbol
 		(lib_id "user_created:Smart LED")
-		(at 441.96 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4de90d0-1b00-4beb-adfa-59e5a74ee4a0")
-		(property "Reference" "SL55"
-			(at 443.23 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 441.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 441.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 441.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 441.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 441.96 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5aac158d-c883-455d-9295-506253bed907")
-		)
-		(pin "3"
-			(uuid "3f5d7008-3c35-43e3-86c7-943dc58a6d1b")
-		)
-		(pin "4"
-			(uuid "1ad66e8d-dcaf-42d9-a682-758004847d92")
-		)
-		(pin "2"
-			(uuid "bfe6110b-a5a0-40e0-92bb-beb6774ae0dd")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user_created:Smart LED")
 		(at 238.76 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43856,90 +40064,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SL33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 467.36 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6739e9f-96ac-4301-b182-37563a60b64d")
-		(property "Reference" "SL70"
-			(at 468.63 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 467.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 467.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 467.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 467.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 467.36 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "318cbdd4-a21e-42e8-8819-6c6fa729dd14")
-		)
-		(pin "3"
-			(uuid "39d41227-baca-462d-8d1c-b3f31fc1c761")
-		)
-		(pin "4"
-			(uuid "7e9b7e8c-929b-44c2-a703-56e13029d3bc")
-		)
-		(pin "2"
-			(uuid "b9c98af8-ea72-4b6f-b1cc-57311534edaf")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL70")
 					(unit 1)
 				)
 			)
@@ -44705,71 +40829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 458.47 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dae9bac2-3c73-4b31-bd32-4a43192fbe2f")
-		(property "Reference" "#PWR0112"
-			(at 458.47 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 458.597 154.2542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 458.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 458.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 458.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8110840c-ea09-4f2a-985d-1a8cca17c561")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "user_created:Smart LED")
 		(at 187.96 176.53 0)
 		(unit 1)
@@ -44920,7 +40979,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 264.16 171.45 0)
+		(at 365.76 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44929,23 +40988,23 @@
 		(fields_autoplaced yes)
 		(uuid "dbb51cf7-79ff-4ad8-97d0-edbf6fb81c0f")
 		(property "Reference" "SW62"
-			(at 264.16 163.83 0)
+			(at 365.76 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "macro"
-			(at 264.16 166.37 0)
+		(property "Value" "win"
+			(at 365.76 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
-			(at 264.16 166.37 0)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+			(at 365.76 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44954,7 +41013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 166.37 0)
+			(at 365.76 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44963,7 +41022,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 264.16 171.45 0)
+			(at 365.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44972,11 +41031,12 @@
 			)
 		)
 		(property "LCSC Part #" "C5333465"
-			(at 264.16 171.45 0)
+			(at 365.76 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -45586,85 +41646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 454.66 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0fbe284-1eb0-4c2d-8320-7e3325cb8118")
-		(property "Reference" "D28"
-			(at 454.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DAV70"
-			(at 454.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 454.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 454.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 454.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C68978"
-			(at 454.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a572c60c-8a2f-439a-afe7-e0c5b7a9caf4")
-		)
-		(pin "3"
-			(uuid "1f5d7926-39a7-4d9e-aee6-30bea7436c03")
-		)
-		(pin "2"
-			(uuid "ca633fb3-8ac5-46bb-bc81-80a1f4fb4505")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 137.16 140.97 0)
 		(unit 1)
@@ -45735,84 +41716,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SW43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 458.47 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1501da1-cc7d-421d-a932-5c737a156ed9")
-		(property "Reference" "C70"
-			(at 461.01 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 461.01 179.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 458.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 458.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 458.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 458.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62cff96c-1cb5-49a1-a3ea-8e6123845637")
-		)
-		(pin "2"
-			(uuid "b07d184d-52ff-4acf-8e10-d01581273b8b")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -46231,7 +42134,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 229.87 177.8 0)
+		(at 331.47 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46240,7 +42143,7 @@
 		(fields_autoplaced yes)
 		(uuid "e47967ad-60e2-4fbb-b377-f461bd0dbe16")
 		(property "Reference" "C61"
-			(at 232.41 176.5362 0)
+			(at 334.01 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46249,7 +42152,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 232.41 179.0762 0)
+			(at 334.01 179.0762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46258,7 +42161,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 229.87 177.8 0)
+			(at 331.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46267,7 +42170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 177.8 0)
+			(at 331.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46276,7 +42179,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 229.87 177.8 0)
+			(at 331.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46285,7 +42188,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 229.87 177.8 0)
+			(at 331.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46380,90 +42283,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 441.96 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5cdde69-3dcf-49dd-a2ad-01ff2a9ed2e5")
-		(property "Reference" "SL69"
-			(at 443.23 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 441.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 441.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 441.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 441.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 441.96 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "365c80ac-3479-4f6f-a16b-cf22f543bd3a")
-		)
-		(pin "3"
-			(uuid "af767c2d-76dc-40a0-ba62-bf167696f243")
-		)
-		(pin "4"
-			(uuid "068004af-3a14-47b0-aca9-fdc9d37ba984")
-		)
-		(pin "2"
-			(uuid "6c15f3d6-cc34-4b77-ae3b-2dc6f18d8a7a")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL69")
 					(unit 1)
 				)
 			)
@@ -46982,90 +42801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "user_created:Smart LED")
-		(at 391.16 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec337c32-6616-403f-a2ba-fc189d5f34dc")
-		(property "Reference" "SL67"
-			(at 392.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Smart LED"
-			(at 391.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_added:Smart LED 6028"
-			(at 391.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 391.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart LED with Reversed Pads"
-			(at 391.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C9900170687"
-			(at 391.16 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93128bbc-c6fd-49c2-b5a5-f13494718437")
-		)
-		(pin "3"
-			(uuid "3c3cea30-7b1a-4535-bfa5-097e297bd268")
-		)
-		(pin "4"
-			(uuid "97eb8a46-95fb-4e0f-a881-889fc6d3979b")
-		)
-		(pin "2"
-			(uuid "03ae114e-c3e2-4dc9-86fc-a1f06a40598a")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 289.56 52.07 0)
 		(unit 1)
@@ -47575,84 +43310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 458.47 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a4446f-68b6-4c68-88f6-03d29c46d3b9")
-		(property "Reference" "C56"
-			(at 461.01 146.0562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 461.01 148.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 458.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 458.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 458.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 458.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2e5e6a2-dded-4437-94f2-0dead3af12cc")
-		)
-		(pin "2"
-			(uuid "fed6512c-d1b4-4374-8567-ffee96e305fc")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 382.27 90.17 0)
 		(unit 1)
@@ -47803,7 +43460,7 @@
 	)
 	(symbol
 		(lib_id "user_created:Smart LED")
-		(at 238.76 176.53 0)
+		(at 340.36 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47812,7 +43469,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4d6f3c6-f933-414c-bc96-7c46c8ba528c")
 		(property "Reference" "SL61"
-			(at 240.03 173.99 0)
+			(at 341.63 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47822,7 +43479,7 @@
 			)
 		)
 		(property "Value" "Smart LED"
-			(at 238.76 171.45 0)
+			(at 340.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47830,7 +43487,7 @@
 			)
 		)
 		(property "Footprint" "user_added:Smart LED 6028"
-			(at 238.76 171.45 0)
+			(at 340.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47839,7 +43496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 171.45 0)
+			(at 340.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47848,7 +43505,7 @@
 			)
 		)
 		(property "Description" "Smart LED with Reversed Pads"
-			(at 238.76 171.45 0)
+			(at 340.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47857,7 +43514,7 @@
 			)
 		)
 		(property "LCSC Part #" "C9900170687"
-			(at 238.76 176.53 0)
+			(at 340.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47965,7 +43622,7 @@
 	)
 	(symbol
 		(lib_id "user_created:Smart LED")
-		(at 289.56 176.53 0)
+		(at 391.16 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47974,7 +43631,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6cb2f12-246a-40f6-a34a-0cfd00ebe890")
 		(property "Reference" "SL63"
-			(at 290.83 173.99 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47984,7 +43641,7 @@
 			)
 		)
 		(property "Value" "Smart LED"
-			(at 289.56 171.45 0)
+			(at 391.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47992,7 +43649,7 @@
 			)
 		)
 		(property "Footprint" "user_added:Smart LED 6028"
-			(at 289.56 171.45 0)
+			(at 391.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48001,7 +43658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 171.45 0)
+			(at 391.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48010,7 +43667,7 @@
 			)
 		)
 		(property "Description" "Smart LED with Reversed Pads"
-			(at 289.56 171.45 0)
+			(at 391.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48019,7 +43676,7 @@
 			)
 		)
 		(property "LCSC Part #" "C9900170687"
-			(at 289.56 176.53 0)
+			(at 391.16 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48042,84 +43699,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "SL63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 382.27 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f70429d1-8bdd-4ac3-a455-c43efd8d88d3")
-		(property "Reference" "C67"
-			(at 384.81 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 384.81 179.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 382.27 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.27 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 382.27 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 382.27 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3542d7c2-09ab-4102-93d6-dacfd27d1d23")
-		)
-		(pin "2"
-			(uuid "df6cb440-6db7-496d-9b45-413816555f4c")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -48561,7 +44140,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 177.8 0)
+		(at 370.84 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48569,7 +44148,7 @@
 		(dnp no)
 		(uuid "fcce44af-e5cd-41f1-bdca-9100fc4142e2")
 		(property "Reference" "#PWR0118"
-			(at 269.24 184.15 0)
+			(at 370.84 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48578,7 +44157,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.367 182.1942 0)
+			(at 370.967 182.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48586,7 +44165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 177.8 0)
+			(at 370.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48595,7 +44174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 177.8 0)
+			(at 370.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48604,7 +44183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 177.8 0)
+			(at 370.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48925,86 +44504,6 @@
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 403.86 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff35227d-cdd3-45aa-8af5-5e99d40021fd")
-		(property "Reference" "D34"
-			(at 403.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DAV70"
-			(at 403.86 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 403.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 403.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 403.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C68978"
-			(at 403.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe3f3ffd-6b00-4371-b2a8-fc1a9fc79924")
-		)
-		(pin "3"
-			(uuid "4ffa730c-e3e9-4d61-ab7c-98bdaaaff46c")
-		)
-		(pin "2"
-			(uuid "fe15df42-5f42-48da-b32e-2d5b70ae2be9")
-		)
-		(instances
-			(project "ninja-keyboard"
-				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D34")
 					(unit 1)
 				)
 			)
