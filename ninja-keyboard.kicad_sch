@@ -2289,7 +2289,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RotaryEncoder"
+		(symbol "Device:RotaryEncoder_Switch_MP"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -2298,15 +2298,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.604 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RotaryEncoder"
-				(at 0 -6.604 0)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2323,7 +2323,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 6.604 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2331,7 +2331,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2340,7 +2349,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "rotary switch encoder"
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2349,16 +2358,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "RotaryEncoder*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_0_1"
+			(symbol "RotaryEncoder_Switch_MP_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2512,8 +2512,78 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "RotaryEncoder_1_1"
+			(symbol "RotaryEncoder_Switch_MP_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2561,6 +2631,60 @@
 						)
 					)
 					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5015,10 +5139,10 @@
 		(uuid "0153b0d2-9b10-474d-9113-cbb7b2f62de5")
 	)
 	(junction
-		(at 238.76 229.87)
+		(at 243.84 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01aa8fa4-0256-478d-97c7-b2664ccd6c6d")
+		(uuid "057d220e-2be9-4a4a-825f-ecff4e73f64e")
 	)
 	(junction
 		(at 422.91 52.07)
@@ -5061,12 +5185,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "154eb4fd-a6de-4072-a9ed-37ad179c9e7f")
-	)
-	(junction
-		(at 222.25 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "188a961f-77bc-4a76-bdac-618fb66edf50")
 	)
 	(junction
 		(at 88.9 378.46)
@@ -5201,12 +5319,6 @@
 		(uuid "4af7f74d-c071-42c7-8750-9f821c8a9bd1")
 	)
 	(junction
-		(at 238.76 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b1558fc-d345-4a30-b336-9d4b497c08f2")
-	)
-	(junction
 		(at 68.58 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5241,6 +5353,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "622b7224-8df1-4f73-9840-a87a6f89aa42")
+	)
+	(junction
+		(at 218.44 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62396816-3990-402e-947e-2d4557af8afd")
 	)
 	(junction
 		(at 251.46 97.79)
@@ -5567,6 +5685,12 @@
 		(uuid "d72e5486-c98f-40d6-b003-7d8c64ac08dd")
 	)
 	(junction
+		(at 243.84 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d847919a-4ec6-4a8c-a29b-cd60b7152527")
+	)
+	(junction
 		(at 435.61 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5621,10 +5745,6 @@
 		(uuid "ff2155d5-1771-4ff4-9b66-f33c22c627c1")
 	)
 	(no_connect
-		(at 551.18 294.64)
-		(uuid "3d1cd684-9941-4a5d-b8c1-51f0002cb907")
-	)
-	(no_connect
 		(at 132.08 177.8)
 		(uuid "497688db-ca0c-4961-9a45-392ed6e1e0e1")
 	)
@@ -5633,8 +5753,16 @@
 		(uuid "55784a18-3519-408a-b47e-ecf1b61daf03")
 	)
 	(no_connect
+		(at 259.08 87.63)
+		(uuid "ab4bec8f-33ef-4cdf-aba0-640987d0da5c")
+	)
+	(no_connect
 		(at 186.69 364.49)
 		(uuid "bec956d0-2481-4aa8-a207-06b183303837")
+	)
+	(no_connect
+		(at 132.08 116.84)
+		(uuid "ffb6a854-45a7-41db-8895-044d3ca3971d")
 	)
 	(wire
 		(pts
@@ -5685,16 +5813,6 @@
 			(type default)
 		)
 		(uuid "0199abba-97f4-406c-bc13-07e310107253")
-	)
-	(wire
-		(pts
-			(xy 132.08 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023ee709-07df-4bb2-bce1-820bcdfa57be")
 	)
 	(wire
 		(pts
@@ -5885,16 +6003,6 @@
 			(type default)
 		)
 		(uuid "0a53f3c5-b947-4a6b-ba42-4035ee24004d")
-	)
-	(wire
-		(pts
-			(xy 259.08 91.44) (xy 298.45 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0affae32-7e64-481c-bb8d-4f8d79635802")
 	)
 	(wire
 		(pts
@@ -6498,16 +6606,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 248.92) (xy 228.6 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a49c0d-b164-4405-b4ce-b47bdd9e2df8")
-	)
-	(wire
-		(pts
 			(xy 78.74 252.73) (xy 78.74 255.27)
 		)
 		(stroke
@@ -6715,16 +6813,6 @@
 			(type default)
 		)
 		(uuid "299402aa-7efb-4d46-aa8e-99eaaee7c363")
-	)
-	(wire
-		(pts
-			(xy 238.76 248.92) (xy 246.38 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a24d7a9-8cf0-432a-9ff9-3fadde0ab204")
 	)
 	(wire
 		(pts
@@ -6975,16 +7063,6 @@
 			(type default)
 		)
 		(uuid "31ebb29c-078d-47de-be83-d56ba924abcf")
-	)
-	(wire
-		(pts
-			(xy 259.08 87.63) (xy 259.08 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "323dd990-4c2b-492c-ab4b-998dcf21dece")
 	)
 	(wire
 		(pts
@@ -7328,7 +7406,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 259.08) (xy 231.14 259.08)
+			(xy 218.44 259.08) (xy 231.14 259.08)
 		)
 		(stroke
 			(width 0)
@@ -8038,16 +8116,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 116.84) (xy 127 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d47d483-6278-4734-8c50-c1a7d12745b3")
-	)
-	(wire
-		(pts
 			(xy 330.2 367.03) (xy 332.74 367.03)
 		)
 		(stroke
@@ -8128,7 +8196,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 248.92) (xy 222.25 248.92)
+			(xy 213.36 248.92) (xy 218.44 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8165,6 +8233,16 @@
 			(type default)
 		)
 		(uuid "61faff3a-2854-4c8a-9371-91f0b3b48f7c")
+	)
+	(wire
+		(pts
+			(xy 294.64 78.74) (xy 294.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62321f7f-acbf-4860-abd2-ee99d75adb1f")
 	)
 	(wire
 		(pts
@@ -8278,7 +8356,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 243.84) (xy 238.76 248.92)
+			(xy 243.84 243.84) (xy 243.84 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8628,16 +8706,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 85.09) (xy 294.64 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751cec9a-b3a3-4ec2-a60a-bfc5dbd7d9a4")
-	)
-	(wire
-		(pts
 			(xy 403.86 97.79) (xy 403.86 86.36)
 		)
 		(stroke
@@ -8728,7 +8796,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 243.84) (xy 222.25 248.92)
+			(xy 218.44 243.84) (xy 218.44 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8778,7 +8846,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 248.92) (xy 238.76 251.46)
+			(xy 243.84 248.92) (xy 243.84 251.46)
 		)
 		(stroke
 			(width 0)
@@ -8888,7 +8956,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 130.81) (xy 144.78 130.81)
+			(xy 127 130.81) (xy 143.51 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9008,7 +9076,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 259.08) (xy 238.76 256.54)
+			(xy 243.84 259.08) (xy 243.84 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9168,7 +9236,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 229.87) (xy 238.76 238.76)
+			(xy 243.84 229.87) (xy 243.84 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9578,6 +9646,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 130.81) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dae4c1e-9f7d-4381-b669-9594db5cce1b")
+	)
+	(wire
+		(pts
 			(xy 196.85 144.78) (xy 193.04 144.78)
 		)
 		(stroke
@@ -9638,7 +9716,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 229.87) (xy 238.76 229.87)
+			(xy 218.44 229.87) (xy 243.84 229.87)
 		)
 		(stroke
 			(width 0)
@@ -9755,6 +9833,16 @@
 			(type default)
 		)
 		(uuid "a0764e04-3527-4b71-b925-6eac8e4b0a31")
+	)
+	(wire
+		(pts
+			(xy 243.84 229.87) (xy 250.19 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09ad63c-428d-48ab-bf86-110fee589b3b")
 	)
 	(wire
 		(pts
@@ -9978,6 +10066,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 248.92) (xy 250.19 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a999265b-29f4-4777-a083-ced129eafbec")
+	)
+	(wire
+		(pts
 			(xy 251.46 127) (xy 251.46 115.57)
 		)
 		(stroke
@@ -9995,16 +10093,6 @@
 			(type default)
 		)
 		(uuid "a9f75dd0-20eb-4ec0-938c-d619a05ae722")
-	)
-	(wire
-		(pts
-			(xy 298.45 91.44) (xy 298.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0ccab2-952a-4ea2-83dd-e37433b3d284")
 	)
 	(wire
 		(pts
@@ -10218,7 +10306,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 248.92) (xy 222.25 251.46)
+			(xy 218.44 248.92) (xy 218.44 251.46)
 		)
 		(stroke
 			(width 0)
@@ -10318,7 +10406,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 144.78) (xy 142.24 144.78)
+			(xy 143.51 144.78) (xy 142.24 144.78)
 		)
 		(stroke
 			(width 0)
@@ -10498,7 +10586,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 248.92) (xy 238.76 248.92)
+			(xy 233.68 248.92) (xy 243.84 248.92)
 		)
 		(stroke
 			(width 0)
@@ -11088,7 +11176,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 238.76) (xy 222.25 229.87)
+			(xy 218.44 238.76) (xy 218.44 229.87)
 		)
 		(stroke
 			(width 0)
@@ -11368,7 +11456,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 256.54) (xy 222.25 259.08)
+			(xy 218.44 256.54) (xy 218.44 259.08)
 		)
 		(stroke
 			(width 0)
@@ -11445,16 +11533,6 @@
 			(type default)
 		)
 		(uuid "dfe819c8-b4c7-4125-804a-cd4f512bf165")
-	)
-	(wire
-		(pts
-			(xy 238.76 229.87) (xy 250.19 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09f40f5-aff8-49bf-bec9-0bf59f9bfb41")
 	)
 	(wire
 		(pts
@@ -11568,7 +11646,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 130.81) (xy 144.78 144.78)
+			(xy 143.51 130.81) (xy 143.51 144.78)
 		)
 		(stroke
 			(width 0)
@@ -11708,6 +11786,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 72.39) (xy 294.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f84772-e524-4af6-9392-937c102c2d92")
+	)
+	(wire
+		(pts
 			(xy 308.61 151.13) (xy 349.25 151.13)
 		)
 		(stroke
@@ -11725,6 +11813,16 @@
 			(type default)
 		)
 		(uuid "ea6ddd1d-bef3-45a3-a82a-949c8449ad41")
+	)
+	(wire
+		(pts
+			(xy 218.44 248.92) (xy 228.6 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea94358d-5aed-4693-9bed-883ac2b4bd0a")
 	)
 	(wire
 		(pts
@@ -11858,7 +11956,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 259.08) (xy 238.76 259.08)
+			(xy 231.14 259.08) (xy 243.84 259.08)
 		)
 		(stroke
 			(width 0)
@@ -12188,6 +12286,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 232.41) (xy 228.6 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc088e4e-30c8-4b11-9434-67a729587a99")
+	)
+	(wire
+		(pts
 			(xy 124.46 377.19) (xy 124.46 378.46)
 		)
 		(stroke
@@ -12346,7 +12454,7 @@
 		)
 		(uuid "063187aa-8f66-42d7-a447-6c1d20c0112f")
 	)
-	(label "RXD0"
+	(label "LED_DRV1"
 		(at 551.18 233.68 0)
 		(effects
 			(font
@@ -12396,6 +12504,16 @@
 		)
 		(uuid "1081d54e-5521-41e9-8190-690df8719eb7")
 	)
+	(label "LED_DRV2"
+		(at 114.3 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1270535c-e0b8-4f61-8e9f-874fe512aece")
+	)
 	(label "LCD_SCL"
 		(at 168.91 252.73 0)
 		(effects
@@ -12406,7 +12524,7 @@
 		)
 		(uuid "1286b7bc-2a86-4b37-ba2f-0212cfe7e4a6")
 	)
-	(label "LED_DRV"
+	(label "LED_DRV0"
 		(at 551.18 256.54 0)
 		(effects
 			(font
@@ -12467,7 +12585,7 @@
 		(uuid "258eb7d2-87ff-42a5-a745-a9f1dbce4b47")
 	)
 	(label "GPIO47"
-		(at 246.38 248.92 0)
+		(at 250.19 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12556,7 +12674,7 @@
 		)
 		(uuid "367801b5-d119-49d7-9601-8e3fd01b7a1b")
 	)
-	(label "LED_DRV"
+	(label "LED_DRV0"
 		(at 519.43 55.88 0)
 		(effects
 			(font
@@ -12706,6 +12824,16 @@
 		)
 		(uuid "55c78613-6d04-48d4-ad68-72b23c6087b4")
 	)
+	(label "LED_DRV1"
+		(at 294.64 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "569ec57b-2917-4877-aab3-d0ee5a8a76c3")
+	)
 	(label "LCD_DC"
 		(at 551.18 279.4 0)
 		(effects
@@ -12746,6 +12874,16 @@
 		)
 		(uuid "5c61a5b0-84b1-4c3a-aa91-10f44fd1c733")
 	)
+	(label "GPIO45"
+		(at 228.6 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5dafa5c8-3732-488f-a6e9-28e28a206f05")
+	)
 	(label "3V3"
 		(at 132.08 114.3 180)
 		(effects
@@ -12776,7 +12914,7 @@
 		)
 		(uuid "6436d0dc-35b4-49ef-acd7-4e7e4a912532")
 	)
-	(label "TXD0"
+	(label "LED_DRV2"
 		(at 44.45 243.84 0)
 		(effects
 			(font
@@ -12785,6 +12923,16 @@
 			(justify left bottom)
 		)
 		(uuid "66f09349-4b27-4019-bd1b-0e299d7b4815")
+	)
+	(label "GPIO45"
+		(at 551.18 294.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67792649-31a2-4f3e-98fe-0ab4c7cd8d7e")
 	)
 	(label "LCD_BLK"
 		(at 551.18 281.94 0)
@@ -12876,7 +13024,7 @@
 		)
 		(uuid "747600c2-fa6a-4ba7-a0e0-04d1d7afb2d7")
 	)
-	(label "TXD0"
+	(label "LED_DRV2"
 		(at 551.18 231.14 0)
 		(effects
 			(font
@@ -13147,12 +13295,12 @@
 		(uuid "9659b374-4071-474e-9e28-dfc8cab12866")
 	)
 	(label "GPIO21"
-		(at 213.36 248.92 0)
+		(at 213.36 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9677e346-56bf-4e82-a4d0-2ed18bcbee9e")
 	)
@@ -13536,7 +13684,7 @@
 		)
 		(uuid "d3438b37-9d4c-47de-81c8-ea0b71a0b76f")
 	)
-	(label "RXD0"
+	(label "LED_DRV1"
 		(at 44.45 246.38 0)
 		(effects
 			(font
@@ -13978,7 +14126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "010be583-016a-4948-8ca8-ab17b1db6288")
-		(property "Reference" "C45"
+		(property "Reference" "C44"
 			(at 181.61 146.0562 0)
 			(effects
 				(font
@@ -14040,7 +14188,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C45")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -14055,7 +14203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01d5ec9a-5c9f-4ff7-9de8-18eaa8f1e439")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR099"
 			(at 229.87 156.21 0)
 			(effects
 				(font
@@ -14105,7 +14253,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0103")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -14120,7 +14268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "025e017c-1553-44cb-a423-b86ae3a02d88")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0132"
 			(at 92.71 351.79 0)
 			(effects
 				(font
@@ -14170,7 +14318,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0151")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -14266,7 +14414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "033695ea-bd91-4cfe-85c9-cbd70ed283bc")
-		(property "Reference" "SW72"
+		(property "Reference" "SW63"
 			(at 194.31 368.2999 90)
 			(effects
 				(font
@@ -14331,7 +14479,7 @@
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW72")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -14440,7 +14588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "060e134d-1c2e-49c8-9755-4ee3709ecd30")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR075"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -14490,7 +14638,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR076")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -14506,7 +14654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06273698-7508-4c03-949f-cae538d4e923")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0144"
 			(at 306.07 401.32 0)
 			(effects
 				(font
@@ -14556,7 +14704,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0163")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -14827,7 +14975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "091ed92e-6b17-41e0-9f57-6bc1cbdcf1f5")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 128.27 125.73 0)
 			(effects
 				(font
@@ -14877,7 +15025,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -14957,7 +15105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a62db31-06ea-4787-91f4-91e77865fa60")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR085"
 			(at 193.04 153.67 0)
 			(effects
 				(font
@@ -15007,7 +15155,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR087")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -15361,7 +15509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dfb09b9-0e70-4c5e-978c-6ce85db26937")
-		(property "Reference" "C58"
+		(property "Reference" "C55"
 			(at 156.21 176.5362 0)
 			(effects
 				(font
@@ -15423,7 +15571,86 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C58")
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 294.64 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e805ae7-4bd3-48a8-a5af-ee2d0a74ff2d")
+		(property "Reference" "R24"
+			(at 297.18 74.9299 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 297.18 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 294.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 294.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23182"
+			(at 294.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d6ce8e1-113b-4951-bcca-24df04eb6022")
+		)
+		(pin "1"
+			(uuid "2795b683-65d1-4425-9d34-c6db39b38428")
+		)
+		(instances
+			(project "ninja-keyboard"
+				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -15816,7 +16043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1159fc8c-d499-4048-a855-aebc445f1a01")
-		(property "Reference" "D37"
+		(property "Reference" "D33"
 			(at 205.74 349.5039 90)
 			(effects
 				(font
@@ -15897,7 +16124,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D37")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -16345,7 +16572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "152be6bf-9c4b-49bd-aeec-b220d6ada8f0")
-		(property "Reference" "C79"
+		(property "Reference" "C70"
 			(at 86.36 339.0962 0)
 			(effects
 				(font
@@ -16407,7 +16634,7 @@
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C79")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -16578,7 +16805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19e1f750-11b0-4958-afa5-af37fdba7a54")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0102"
 			(at 306.07 156.21 0)
 			(effects
 				(font
@@ -16628,7 +16855,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0106")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -16643,7 +16870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19fe9721-8829-4a65-a58d-1d1345184463")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR089"
 			(at 294.64 153.67 0)
 			(effects
 				(font
@@ -16693,7 +16920,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR091")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -16709,7 +16936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a35321d-1b18-41dc-b5ed-0902c6f24659")
-		(property "Reference" "SW48"
+		(property "Reference" "SW47"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -16769,7 +16996,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW48")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -16785,7 +17012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1afe3617-bede-41e0-8f3d-29dcadaa716a")
-		(property "Reference" "D29"
+		(property "Reference" "D28"
 			(at 149.86 166.37 0)
 			(effects
 				(font
@@ -16848,7 +17075,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D29")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -16993,7 +17220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d49f4a4-6750-48fb-b28b-9f3784925dde")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0128"
 			(at 334.01 259.08 0)
 			(effects
 				(font
@@ -17043,7 +17270,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0147")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -17059,7 +17286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea5cd85-1232-4f1a-b5ea-1846c7e6b831")
-		(property "Reference" "SL49"
+		(property "Reference" "SL48"
 			(at 290.83 143.51 0)
 			(effects
 				(font
@@ -17127,7 +17354,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL49")
+					(reference "SL48")
 					(unit 1)
 				)
 			)
@@ -17298,7 +17525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ffd3852-e945-47b3-8b4c-906ed1c9370a")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0108"
 			(at 167.64 184.15 0)
 			(effects
 				(font
@@ -17348,7 +17575,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0114")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -17804,7 +18031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235116cb-d73f-4e35-b3a6-765a337baabc")
-		(property "Reference" "SL62"
+		(property "Reference" "SL59"
 			(at 367.03 173.99 0)
 			(effects
 				(font
@@ -17872,7 +18099,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL62")
+					(reference "SL59")
 					(unit 1)
 				)
 			)
@@ -17887,7 +18114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23cb560e-cdf5-46b3-b1fa-d60e6d7d4896")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR094"
 			(at 421.64 153.67 0)
 			(effects
 				(font
@@ -17937,7 +18164,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR096")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -17952,7 +18179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "257e8563-8c0c-4d89-9b47-ace63647175f")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0136"
 			(at 184.15 361.95 0)
 			(effects
 				(font
@@ -18002,7 +18229,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0155")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -18160,7 +18387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29e0721f-7133-493b-a2fb-461ce780bd36")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0116"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -18210,7 +18437,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0128")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -18392,7 +18619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2afd5b14-2188-4ce8-9522-6bf775c2e89a")
-		(property "Reference" "C62"
+		(property "Reference" "C59"
 			(at 359.41 176.5362 0)
 			(effects
 				(font
@@ -18454,7 +18681,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C62")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -18546,7 +18773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b766ec2-3c28-4da7-9487-f1a3508503fb")
-		(property "Reference" "SL57"
+		(property "Reference" "SL54"
 			(at 138.43 173.99 0)
 			(effects
 				(font
@@ -18614,7 +18841,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL57")
+					(reference "SL54")
 					(unit 1)
 				)
 			)
@@ -18937,7 +19164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ed68a63-e72a-4c17-ab44-c0a034d9892d")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0127"
 			(at 127 256.54 0)
 			(effects
 				(font
@@ -18987,7 +19214,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0145")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -19382,7 +19609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30446fba-4fbf-4377-80cb-3f2a3d1aed7b")
-		(property "Reference" "SL46"
+		(property "Reference" "SL45"
 			(at 214.63 143.51 0)
 			(effects
 				(font
@@ -19450,7 +19677,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL46")
+					(reference "SL45")
 					(unit 1)
 				)
 			)
@@ -19465,7 +19692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3065c019-2a06-4591-8f63-376df28d175c")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0110"
 			(at 218.44 184.15 0)
 			(effects
 				(font
@@ -19515,7 +19742,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0116")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -19764,7 +19991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33c224dd-e958-40d4-8edf-3ee8928dbd70")
-		(property "Reference" "C63"
+		(property "Reference" "C60"
 			(at 384.81 176.5362 0)
 			(effects
 				(font
@@ -19826,7 +20053,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C63")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -20153,7 +20380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "356b7764-289e-4c8e-b9d4-2cbfc2c3bcb4")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 229.87 125.73 0)
 			(effects
 				(font
@@ -20203,7 +20430,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -20218,7 +20445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35924c88-326f-4f57-9a98-6af912b58f43")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR092"
 			(at 370.84 153.67 0)
 			(effects
 				(font
@@ -20268,7 +20495,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR094")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -20284,7 +20511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35c28bda-8670-4e9f-a05d-86f1ecb0046d")
-		(property "Reference" "C48"
+		(property "Reference" "C47"
 			(at 257.81 146.0562 0)
 			(effects
 				(font
@@ -20346,7 +20573,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C48")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -20362,7 +20589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36161474-e915-4249-9b54-0dc5592601fc")
-		(property "Reference" "C57"
+		(property "Reference" "C54"
 			(at 130.81 176.5362 0)
 			(effects
 				(font
@@ -20424,7 +20651,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C57")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -20440,7 +20667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3665ddb6-00f2-4360-895d-d5a63d3dc5d7")
-		(property "Reference" "SL43"
+		(property "Reference" "SL42"
 			(at 138.43 143.51 0)
 			(effects
 				(font
@@ -20508,7 +20735,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL43")
+					(reference "SL42")
 					(unit 1)
 				)
 			)
@@ -20588,7 +20815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37ccfc04-306f-4e39-94d3-e6ff2f29b288")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR087"
 			(at 243.84 153.67 0)
 			(effects
 				(font
@@ -20638,7 +20865,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR089")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -20730,7 +20957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3866d9cb-0902-4c53-b3fd-f48260e5d280")
-		(property "Reference" "C49"
+		(property "Reference" "C48"
 			(at 283.21 146.0562 0)
 			(effects
 				(font
@@ -20792,7 +21019,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C49")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -20807,7 +21034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3922bdf0-0cee-49f1-a172-1466edf2c67a")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 280.67 125.73 0)
 			(effects
 				(font
@@ -20857,7 +21084,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -20951,7 +21178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ec46ea-b04b-4985-a1cd-462fdca671a3")
-		(property "Reference" "C60"
+		(property "Reference" "C57"
 			(at 207.01 176.5362 0)
 			(effects
 				(font
@@ -21013,7 +21240,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C60")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -21300,7 +21527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ac2c535-9558-40a0-ab07-1793f17f05e1")
-		(property "Reference" "C51"
+		(property "Reference" "C50"
 			(at 334.01 146.0562 0)
 			(effects
 				(font
@@ -21362,7 +21589,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C51")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -21377,7 +21604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ae39041-15c0-44a4-a549-5d2993a21345")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR082"
 			(at 433.07 125.73 0)
 			(effects
 				(font
@@ -21427,7 +21654,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR083")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -21443,7 +21670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b8a9efe-abb2-40e3-950e-775294b1d5a3")
-		(property "Reference" "C77"
+		(property "Reference" "C68"
 			(at 60.9663 313.69 90)
 			(effects
 				(font
@@ -21503,7 +21730,7 @@
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C77")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -21595,7 +21822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf11486-3665-42df-a9bc-b0f93f47ae5e")
-		(property "Reference" "SW59"
+		(property "Reference" "SW56"
 			(at 187.96 163.83 0)
 			(effects
 				(font
@@ -21655,7 +21882,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW59")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -21671,7 +21898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf92854-c91d-47e4-a099-d9c1a3f6dd4d")
-		(property "Reference" "SW58"
+		(property "Reference" "SW55"
 			(at 162.56 163.83 0)
 			(effects
 				(font
@@ -21731,7 +21958,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW58")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -21823,7 +22050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f331497-3925-4b23-a647-a0c1b263ba53")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR093"
 			(at 396.24 153.67 0)
 			(effects
 				(font
@@ -21873,7 +22100,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR095")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -22190,7 +22417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43be69e0-5556-4479-8cdc-e7fd81c08a18")
-		(property "Reference" "C43"
+		(property "Reference" "C42"
 			(at 130.81 146.0562 0)
 			(effects
 				(font
@@ -22252,7 +22479,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C43")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -22267,7 +22494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "448234b9-9d04-4af3-ac21-55a98bb5a8e0")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0121"
 			(at 382.27 186.69 0)
 			(effects
 				(font
@@ -22317,7 +22544,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0133")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -22397,7 +22624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "451b92b8-ab53-4071-8327-2fff8b69590f")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0106"
 			(at 407.67 156.21 0)
 			(effects
 				(font
@@ -22447,7 +22674,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0110")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -22546,7 +22773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45ea54ef-1244-4dfd-82e8-d209ff768479")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0133"
 			(at 50.8 354.33 0)
 			(effects
 				(font
@@ -22596,7 +22823,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0152")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -22753,7 +22980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49389319-ea2b-4e8b-87ac-2ee55099c8f5")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0111"
 			(at 345.44 184.15 0)
 			(effects
 				(font
@@ -22803,7 +23030,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0117")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -22975,7 +23202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a22b38f-0633-4529-b8f4-28e46174b9b7")
-		(property "Reference" "SL64"
+		(property "Reference" "SL61"
 			(at 417.83 173.99 0)
 			(effects
 				(font
@@ -23043,7 +23270,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL64")
+					(reference "SL61")
 					(unit 1)
 				)
 			)
@@ -23058,7 +23285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a5e6c49-1676-4109-94ee-c375733d021d")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0140"
 			(at 260.35 374.65 0)
 			(effects
 				(font
@@ -23108,7 +23335,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0159")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -23412,7 +23639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e0ec650-1a28-4032-9a09-0542a703f413")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 153.67 125.73 0)
 			(effects
 				(font
@@ -23462,7 +23689,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -23478,7 +23705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eeda0f1-8b24-4ef3-8f0b-ef4b534d2f5d")
-		(property "Reference" "SW57"
+		(property "Reference" "SW54"
 			(at 137.16 163.83 0)
 			(effects
 				(font
@@ -23538,7 +23765,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW57")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -23717,7 +23944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52d6606a-eb24-4973-997e-7962fcf9be00")
-		(property "Reference" "SL52"
+		(property "Reference" "SL51"
 			(at 367.03 143.51 0)
 			(effects
 				(font
@@ -23785,7 +24012,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL52")
+					(reference "SL51")
 					(unit 1)
 				)
 			)
@@ -23879,7 +24106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5354e44c-df84-4610-ba45-637ef71e60c4")
-		(property "Reference" "SL48"
+		(property "Reference" "SL47"
 			(at 265.43 143.51 0)
 			(effects
 				(font
@@ -23947,7 +24174,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL48")
+					(reference "SL47")
 					(unit 1)
 				)
 			)
@@ -23963,7 +24190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564a762e-fe53-49e2-a429-f9a17a086dd3")
-		(property "Reference" "C71"
+		(property "Reference" "C62"
 			(at 381 245.1162 0)
 			(effects
 				(font
@@ -24044,7 +24271,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C71")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -24208,7 +24435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5936f416-05e8-4eb9-a9cb-d8a812482797")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0138"
 			(at 243.84 368.3 0)
 			(effects
 				(font
@@ -24258,7 +24485,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0157")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -24345,7 +24572,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 238.76 241.3 0)
+		(at 243.84 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24354,7 +24581,7 @@
 		(fields_autoplaced yes)
 		(uuid "59db8d7b-bf37-477c-8f48-dec3fba5f089")
 		(property "Reference" "R5"
-			(at 241.3 240.0299 0)
+			(at 246.38 240.0299 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -24363,7 +24590,7 @@
 			)
 		)
 		(property "Value" "13K"
-			(at 241.3 242.5699 0)
+			(at 246.38 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24372,7 +24599,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 241.3 0)
+			(at 243.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24381,7 +24608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 241.3 0)
+			(at 243.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24390,7 +24617,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 238.76 241.3 0)
+			(at 243.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24399,7 +24626,7 @@
 			)
 		)
 		(property "LCSC Part #" "C22797"
-			(at 238.76 241.3 0)
+			(at 243.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24431,7 +24658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a9baa1b-205a-40b0-ab4c-245be8e66038")
-		(property "Reference" "SL58"
+		(property "Reference" "SL55"
 			(at 163.83 173.99 0)
 			(effects
 				(font
@@ -24499,7 +24726,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL58")
+					(reference "SL55")
 					(unit 1)
 				)
 			)
@@ -24813,7 +25040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e01a88f-fc30-4940-beba-4760359424d4")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0113"
 			(at 396.24 184.15 0)
 			(effects
 				(font
@@ -24863,7 +25090,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0119")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -24878,7 +25105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e9070a9-5014-4592-b0f9-c2e9e154c6ff")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0143"
 			(at 120.65 394.97 0)
 			(effects
 				(font
@@ -24928,7 +25155,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0162")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -24943,7 +25170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f0817b0-4626-470d-a5e8-5269191c9ddf")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0126"
 			(at 383.54 255.27 0)
 			(effects
 				(font
@@ -24993,7 +25220,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0144")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -25086,7 +25313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61982276-7396-4fde-b657-42a63a5ff93f")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 382.27 125.73 0)
 			(effects
 				(font
@@ -25136,7 +25363,73 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR081")
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 233.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "626a4c38-a002-4b07-83de-c3098a4f295b")
+		(property "Reference" "#PWR0147"
+			(at 233.68 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f338a6b-0e2d-43ee-aaaa-8ed1b5e3f7da")
+		)
+		(instances
+			(project "ninja-keyboard"
+				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -25295,7 +25588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fdd6a9-ba9c-4636-a443-a539c1eedfda")
-		(property "Reference" "SL51"
+		(property "Reference" "SL50"
 			(at 341.63 143.51 0)
 			(effects
 				(font
@@ -25363,7 +25656,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL51")
+					(reference "SL50")
 					(unit 1)
 				)
 			)
@@ -25462,7 +25755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "643cf998-4d6a-4dd4-8b95-b1b812582e00")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0141"
 			(at 189.23 388.62 0)
 			(effects
 				(font
@@ -25512,7 +25805,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0160")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -25528,7 +25821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64480463-87e8-4db9-a6a1-303566c5ba3a")
-		(property "Reference" "SL45"
+		(property "Reference" "SL44"
 			(at 189.23 143.51 0)
 			(effects
 				(font
@@ -25596,7 +25889,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL45")
+					(reference "SL44")
 					(unit 1)
 				)
 			)
@@ -25752,7 +26045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65907598-c6da-4f9c-856a-acc5d0953966")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0107"
 			(at 142.24 184.15 0)
 			(effects
 				(font
@@ -25802,7 +26095,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0113")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -25895,7 +26188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66d99336-f78c-4088-b908-af72abb5e948")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0134"
 			(at 53.34 354.33 0)
 			(effects
 				(font
@@ -25945,7 +26238,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0153")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -26025,7 +26318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6795973d-d47c-4f2e-aaad-c0d47357927e")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0135"
 			(at 66.04 354.33 0)
 			(effects
 				(font
@@ -26075,7 +26368,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0154")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -26232,7 +26525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68e4fcc7-e782-4e57-a7db-9b704902e0ee")
-		(property "Reference" "C78"
+		(property "Reference" "C69"
 			(at 71.12 325.1135 0)
 			(effects
 				(font
@@ -26294,7 +26587,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C78")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -26310,7 +26603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6902f54e-2180-4f65-98c2-96545e7ca086")
-		(property "Reference" "SW61"
+		(property "Reference" "SW58"
 			(at 340.36 161.29 0)
 			(effects
 				(font
@@ -26371,7 +26664,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW61")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -26387,7 +26680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694d466d-45e9-4d28-b59c-7ee85a433dd4")
-		(property "Reference" "SW44"
+		(property "Reference" "SW43"
 			(at 162.56 133.35 0)
 			(effects
 				(font
@@ -26447,7 +26740,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW44")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -26862,15 +27155,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 222.25 254 0)
+		(at 218.44 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6ccab9b3-f616-4cff-9376-97199aeb6b4e")
-		(property "Reference" "C75"
-			(at 224.79 252.7362 0)
+		(property "Reference" "C66"
+			(at 220.98 252.7362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26879,7 +27172,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 224.79 255.2762 0)
+			(at 220.98 255.2762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26888,7 +27181,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 222.25 254 0)
+			(at 218.44 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26897,7 +27190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 254 0)
+			(at 218.44 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26906,7 +27199,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 254 0)
+			(at 218.44 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26915,7 +27208,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 222.25 254 0)
+			(at 218.44 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26932,7 +27225,7 @@
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C75")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -27120,7 +27413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b0c692-e2e8-45f5-a3b6-999f1f945348")
-		(property "Reference" "SW63"
+		(property "Reference" "SW60"
 			(at 391.16 161.29 0)
 			(effects
 				(font
@@ -27181,7 +27474,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW63")
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -27197,7 +27490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7259153c-363a-46ac-9b24-bb837dae36f3")
-		(property "Reference" "SL50"
+		(property "Reference" "SL49"
 			(at 316.23 143.51 0)
 			(effects
 				(font
@@ -27265,7 +27558,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL50")
+					(reference "SL49")
 					(unit 1)
 				)
 			)
@@ -27365,7 +27658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f4d318-078a-47fc-b8e3-c8e46eb7f85d")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 353.06 166.37 0)
 			(effects
 				(font
@@ -27428,7 +27721,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -27528,7 +27821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ba93f4-df43-4465-a715-5f171fbf6c3d")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0129"
 			(at 231.14 267.97 0)
 			(effects
 				(font
@@ -27579,7 +27872,7 @@
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0148")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -27755,7 +28048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75540562-026f-4051-a16f-5b37e6f37408")
-		(property "Reference" "SW49"
+		(property "Reference" "SW48"
 			(at 289.56 133.35 0)
 			(effects
 				(font
@@ -27815,7 +28108,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW49")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -27907,7 +28200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "767672ae-23b8-4bcf-a6fd-5d6b848cd390")
-		(property "Reference" "SW46"
+		(property "Reference" "SW45"
 			(at 213.36 133.35 0)
 			(effects
 				(font
@@ -27967,7 +28260,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW46")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -28058,7 +28351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77919642-6a02-4351-8556-8866207ebc1c")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR088"
 			(at 269.24 153.67 0)
 			(effects
 				(font
@@ -28108,7 +28401,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR090")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -28208,7 +28501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77e6c99d-f639-41a9-9173-219a597d1191")
-		(property "Reference" "C44"
+		(property "Reference" "C43"
 			(at 156.21 146.0562 0)
 			(effects
 				(font
@@ -28270,7 +28563,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C44")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -28593,7 +28886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7afc4286-66fb-4896-9df6-d60184efb5c8")
-		(property "Reference" "D32"
+		(property "Reference" "D31"
 			(at 403.86 165.1 0)
 			(effects
 				(font
@@ -28656,7 +28949,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D32")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -28736,7 +29029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c782114-7105-4295-896c-bf45f8c40bdd")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR084"
 			(at 167.64 153.67 0)
 			(effects
 				(font
@@ -28786,7 +29079,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR086")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -29021,6 +29314,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8b5599-04d2-471a-b98e-646aa55dba7c")
+		(property "Reference" "R25"
+			(at 124.46 125.73 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 124.46 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23182"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f574c86-a792-4057-8376-3bcd636be3df")
+		)
+		(pin "1"
+			(uuid "2bb097c9-6d57-4a13-88df-db400f825c40")
+		)
+		(instances
+			(project "ninja-keyboard"
+				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 242.57 90)
 		(unit 1)
@@ -29030,7 +29400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fae06d7-0afd-4f94-9307-25cd96771c62")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0124"
 			(at 175.26 242.57 0)
 			(effects
 				(font
@@ -29081,7 +29451,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0142")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -29306,7 +29676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812cd2c7-bce4-4351-bf4b-3d6aeb292aa2")
-		(property "Reference" "SL47"
+		(property "Reference" "SL46"
 			(at 240.03 143.51 0)
 			(effects
 				(font
@@ -29374,7 +29744,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL47")
+					(reference "SL46")
 					(unit 1)
 				)
 			)
@@ -29389,7 +29759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82acbac5-c52d-47c9-b566-e0db08c76c2e")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 306.07 125.73 0)
 			(effects
 				(font
@@ -29439,7 +29809,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -29764,7 +30134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85cfb9a0-0771-44cb-bdf6-a1ece9782a9a")
-		(property "Reference" "SW51"
+		(property "Reference" "SW50"
 			(at 340.36 133.35 0)
 			(effects
 				(font
@@ -29824,7 +30194,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW51")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -29840,7 +30210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b496e3-ec44-4a7b-9e04-8d4df9681d37")
-		(property "Reference" "C74"
+		(property "Reference" "C65"
 			(at 336.55 248.9262 0)
 			(effects
 				(font
@@ -29921,7 +30291,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C74")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -30021,7 +30391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "894b452f-bba6-42c8-95c5-2229917b73d3")
-		(property "Reference" "D36"
+		(property "Reference" "D32"
 			(at 35.56 323.8499 90)
 			(effects
 				(font
@@ -30101,7 +30471,7 @@
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D36")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -30116,7 +30486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8955799e-4cd7-4391-862c-abba419dabc6")
-		(property "Reference" "C73"
+		(property "Reference" "C64"
 			(at 120.65 247.6437 90)
 			(effects
 				(font
@@ -30195,7 +30565,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C73")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -30211,7 +30581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "895be3bd-4d0e-4d90-8883-6f93d2d26aa7")
-		(property "Reference" "SW64"
+		(property "Reference" "SW61"
 			(at 416.56 161.29 0)
 			(effects
 				(font
@@ -30272,7 +30642,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW64")
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -30790,7 +31160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ace5c27-5a30-4568-83be-2b99583cb59b")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0123"
 			(at 45.72 238.76 0)
 			(effects
 				(font
@@ -30840,7 +31210,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0141")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -31009,7 +31379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d356bd1-a9ec-4bef-8293-7ade559931a8")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0114"
 			(at 421.64 184.15 0)
 			(effects
 				(font
@@ -31059,7 +31429,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0120")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -31396,7 +31766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f2a8a05-ed68-4492-9c7e-1eb6e3d26f75")
-		(property "Reference" "D30"
+		(property "Reference" "D29"
 			(at 200.66 166.37 0)
 			(effects
 				(font
@@ -31459,7 +31829,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D30")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -31474,7 +31844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90272e38-dbff-4b65-8337-9cb3a9df7aff")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0104"
 			(at 356.87 156.21 0)
 			(effects
 				(font
@@ -31524,7 +31894,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0108")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -31605,7 +31975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9044552f-c5fe-4a27-9fc3-ffd130fc5ef9")
-		(property "Reference" "C47"
+		(property "Reference" "C46"
 			(at 232.41 146.0562 0)
 			(effects
 				(font
@@ -31667,7 +32037,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C47")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -32394,7 +32764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97b59194-60ab-4cd9-8b66-428436d295ac")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0125"
 			(at 45.72 248.92 0)
 			(effects
 				(font
@@ -32444,7 +32814,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0143")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -32622,7 +32992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9892d066-58ac-4093-b82f-73d2771a8bc0")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0137"
 			(at 220.98 368.3 0)
 			(effects
 				(font
@@ -32672,7 +33042,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0156")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -32771,7 +33141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9aa9ce3c-7eac-4857-973f-43b99344f38c")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0120"
 			(at 356.87 186.69 0)
 			(effects
 				(font
@@ -32821,7 +33191,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0132")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -32901,7 +33271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b0339c5-21c5-44d0-a4a8-ab078bbefdd2")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR073"
 			(at 204.47 125.73 0)
 			(effects
 				(font
@@ -32951,7 +33321,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -33786,7 +34156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a299eb2a-0878-4f5a-87c2-da99528023fe")
-		(property "Reference" "C46"
+		(property "Reference" "C45"
 			(at 207.01 146.0562 0)
 			(effects
 				(font
@@ -33848,7 +34218,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C46")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -33863,7 +34233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f3ac21-d5d2-4003-ad77-18c688ffaecd")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0131"
 			(at 80.01 320.04 0)
 			(effects
 				(font
@@ -33913,7 +34283,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0150")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -33929,7 +34299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3234cd5-1920-4e82-95c5-58d0e8fc9569")
-		(property "Reference" "SL53"
+		(property "Reference" "SL52"
 			(at 392.43 143.51 0)
 			(effects
 				(font
@@ -33997,7 +34367,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL53")
+					(reference "SL52")
 					(unit 1)
 				)
 			)
@@ -34012,7 +34382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3304fc5-57a3-497f-8268-7ac3d0959a06")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0119"
 			(at 331.47 186.69 0)
 			(effects
 				(font
@@ -34062,7 +34432,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0131")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -34155,7 +34525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3afeba1-b4c8-4066-806c-e938147d3027")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0103"
 			(at 331.47 156.21 0)
 			(effects
 				(font
@@ -34205,7 +34575,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0107")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -34221,7 +34591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44e9a59-7786-483a-a5a2-5e11913b6c53")
-		(property "Reference" "C50"
+		(property "Reference" "C49"
 			(at 308.61 146.0562 0)
 			(effects
 				(font
@@ -34283,7 +34653,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C50")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -34375,7 +34745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a531dfa5-e702-4d7a-9446-0d59acb4a625")
-		(property "Reference" "C52"
+		(property "Reference" "C51"
 			(at 359.41 146.0562 0)
 			(effects
 				(font
@@ -34437,7 +34807,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C52")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -34453,7 +34823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a56838d4-cac7-4037-9c5f-b16689ecc46f")
-		(property "Reference" "SL54"
+		(property "Reference" "SL53"
 			(at 417.83 143.51 0)
 			(effects
 				(font
@@ -34521,7 +34891,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL54")
+					(reference "SL53")
 					(unit 1)
 				)
 			)
@@ -34744,7 +35114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a97acd8e-7c5d-4f32-af6b-1361c64ba17a")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0117"
 			(at 179.07 186.69 0)
 			(effects
 				(font
@@ -34794,7 +35164,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0129")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -35109,7 +35479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaa25776-3437-428c-8040-1f71c0f9a418")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0122"
 			(at 407.67 186.69 0)
 			(effects
 				(font
@@ -35159,22 +35529,22 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0134")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder")
+		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 231.14 241.3 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "aab40004-1a63-4a10-8eb3-0e873ed04e56")
-		(property "Reference" "SW71"
+		(property "Reference" "SW62"
 			(at 224.282 232.41 90)
 			(effects
 				(font
@@ -35192,7 +35562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
 			(at 227.076 245.11 0)
 			(effects
 				(font
@@ -35202,7 +35572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.536 241.3 0)
+			(at 243.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35210,8 +35580,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 231.14 241.3 0)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 246.38 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35228,10 +35598,19 @@
 		(pin "C"
 			(uuid "b40e2a72-093c-4db9-9a38-cd7435a1c346")
 		)
+		(pin "S1"
+			(uuid "abf4d06c-a949-4d22-ad5d-b2eac8a9f41b")
+		)
+		(pin "S2"
+			(uuid "e53d4027-7263-4f2d-a086-6343c1598f2d")
+		)
+		(pin "MP"
+			(uuid "3d2c58ff-169d-4c28-ab7d-912c1b4a507c")
+		)
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW71")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -35389,7 +35768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab020e0d-7c34-45eb-af86-89d14aac4152")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 356.87 125.73 0)
 			(effects
 				(font
@@ -35439,7 +35818,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -35454,7 +35833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abb2fbcd-5a5a-4062-a4bc-f7e187bf07cb")
-		(property "Reference" "C81"
+		(property "Reference" "C72"
 			(at 118.11 382.2762 0)
 			(effects
 				(font
@@ -35516,7 +35895,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C81")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -35689,7 +36068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf420e0-96aa-4e69-a80c-2e7f24d560e8")
-		(property "Reference" "SW52"
+		(property "Reference" "SW51"
 			(at 365.76 133.35 0)
 			(effects
 				(font
@@ -35749,7 +36128,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW52")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -36003,7 +36382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0fd2e09-66c4-467c-9b72-246ba519553a")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR083"
 			(at 142.24 153.67 0)
 			(effects
 				(font
@@ -36053,7 +36432,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR085")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -36068,7 +36447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1660882-0b3e-4897-9878-2557372d7a47")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR097"
 			(at 179.07 156.21 0)
 			(effects
 				(font
@@ -36118,7 +36497,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0101")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -36213,7 +36592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a7bbd7-e323-488c-b2bf-1558c809e889")
-		(property "Reference" "C54"
+		(property "Reference" "C53"
 			(at 410.21 146.0562 0)
 			(effects
 				(font
@@ -36275,7 +36654,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C54")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -36386,7 +36765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b43cae4d-20d9-4ef7-9285-800739904cc1")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR096"
 			(at 153.67 156.21 0)
 			(effects
 				(font
@@ -36436,7 +36815,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0100")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -36451,7 +36830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b44855f7-2039-457b-976b-77a15a8734b3")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR078"
 			(at 331.47 125.73 0)
 			(effects
 				(font
@@ -36501,7 +36880,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR079")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -36647,7 +37026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b692880b-29c6-4be9-ad34-4d513e9ba03b")
-		(property "Reference" "SW54"
+		(property "Reference" "SW53"
 			(at 416.56 133.35 0)
 			(effects
 				(font
@@ -36707,7 +37086,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW54")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -36853,7 +37232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b95e7dcf-09a5-42d9-bdfb-85a0a331e9b3")
-		(property "Reference" "SW53"
+		(property "Reference" "SW52"
 			(at 391.16 133.35 0)
 			(effects
 				(font
@@ -36913,7 +37292,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW53")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -36929,7 +37308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b979d497-9ecb-49ae-ab1f-ec2eac55febf")
-		(property "Reference" "SW60"
+		(property "Reference" "SW57"
 			(at 213.36 163.83 0)
 			(effects
 				(font
@@ -36989,7 +37368,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW60")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -37004,7 +37383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba18e861-06c2-4798-bdc4-a132092c31b7")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR081"
 			(at 407.67 125.73 0)
 			(effects
 				(font
@@ -37054,7 +37433,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR082")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -37154,7 +37533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0de340-03de-4a80-a1f0-d5d29e984f6f")
-		(property "Reference" "C72"
+		(property "Reference" "C63"
 			(at 391.16 245.1162 0)
 			(effects
 				(font
@@ -37235,7 +37614,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C72")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -37251,7 +37630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd8b6f44-0d7f-414c-93b9-e2444f276f91")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0145"
 			(at 313.69 401.32 0)
 			(effects
 				(font
@@ -37301,7 +37680,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0164")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -37401,7 +37780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c13f2d96-1b91-467a-90fb-167cefa4a9cb")
-		(property "Reference" "C64"
+		(property "Reference" "C61"
 			(at 410.21 176.5362 0)
 			(effects
 				(font
@@ -37463,7 +37842,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C64")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -38458,7 +38837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb86e88b-ccbd-4cab-aceb-589e35f8c225")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0142"
 			(at 85.09 394.97 0)
 			(effects
 				(font
@@ -38508,7 +38887,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0161")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -38608,7 +38987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd945a6f-9925-4ba7-b41e-0aafaea78b2a")
-		(property "Reference" "SW45"
+		(property "Reference" "SW44"
 			(at 187.96 133.35 0)
 			(effects
 				(font
@@ -38668,7 +39047,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW45")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -38684,7 +39063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cda0c26e-7766-4a72-a84d-55e40e583b71")
-		(property "Reference" "SW50"
+		(property "Reference" "SW49"
 			(at 314.96 133.35 0)
 			(effects
 				(font
@@ -38744,7 +39123,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW50")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -38759,7 +39138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdacb19a-798d-4339-9557-e5ba43519ae0")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0109"
 			(at 193.04 184.15 0)
 			(effects
 				(font
@@ -38809,7 +39188,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0115")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -38824,7 +39203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdef8354-7f34-4e45-bc81-0cdd04d13535")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR095"
 			(at 128.27 156.21 0)
 			(effects
 				(font
@@ -38874,7 +39253,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR099")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -38890,7 +39269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce22d696-d46a-4be2-89ba-9a9701b4b759")
-		(property "Reference" "D39"
+		(property "Reference" "D35"
 			(at 59.69 375.9199 90)
 			(effects
 				(font
@@ -38971,7 +39350,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D39")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -39353,7 +39732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d056ea97-7cab-45f8-ba95-4ff46db415b6")
-		(property "Reference" "C59"
+		(property "Reference" "C56"
 			(at 181.61 176.5362 0)
 			(effects
 				(font
@@ -39415,7 +39794,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C59")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -39600,7 +39979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d262cada-8134-44b0-87bc-5533a81304eb")
-		(property "Reference" "C53"
+		(property "Reference" "C52"
 			(at 384.81 146.0562 0)
 			(effects
 				(font
@@ -39662,7 +40041,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C53")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -40382,7 +40761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8cdaeb1-c40a-4d3f-8c09-60269553119b")
-		(property "Reference" "SL60"
+		(property "Reference" "SL57"
 			(at 214.63 173.99 0)
 			(effects
 				(font
@@ -40450,7 +40829,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL60")
+					(reference "SL57")
 					(unit 1)
 				)
 			)
@@ -40545,7 +40924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d959d22c-10c0-4741-93a3-c2f31bed14ae")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -40595,7 +40974,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -40838,7 +41217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5b63f5-a289-4003-9dcd-b6f81f987ed1")
-		(property "Reference" "SL59"
+		(property "Reference" "SL56"
 			(at 189.23 173.99 0)
 			(effects
 				(font
@@ -40906,7 +41285,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL59")
+					(reference "SL56")
 					(unit 1)
 				)
 			)
@@ -40921,7 +41300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db67bf35-85d9-4052-9459-4eaa9366184f")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR091"
 			(at 345.44 153.67 0)
 			(effects
 				(font
@@ -40971,7 +41350,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR093")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -40987,7 +41366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb51cf7-79ff-4ad8-97d0-edbf6fb81c0f")
-		(property "Reference" "SW62"
+		(property "Reference" "SW59"
 			(at 365.76 161.29 0)
 			(effects
 				(font
@@ -41048,7 +41427,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW62")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -41362,7 +41741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df27535b-3aaa-4e47-8f20-0a57bae7e7be")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR098"
 			(at 204.47 156.21 0)
 			(effects
 				(font
@@ -41412,7 +41791,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0102")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -41589,7 +41968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0781cd4-510a-45e7-986b-a28174b06cc0")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR086"
 			(at 218.44 153.67 0)
 			(effects
 				(font
@@ -41639,7 +42018,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR088")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -41655,7 +42034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e10ab6ab-9201-4b5c-819e-5dc95ab21494")
-		(property "Reference" "SW43"
+		(property "Reference" "SW42"
 			(at 137.16 133.35 0)
 			(effects
 				(font
@@ -41715,7 +42094,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW43")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -41795,7 +42174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2cef82c-4e05-4892-8312-1c6153bb4747")
-		(property "Reference" "D38"
+		(property "Reference" "D34"
 			(at 262.89 356.8064 90)
 			(effects
 				(font
@@ -41885,7 +42264,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "D38")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -42142,7 +42521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e47967ad-60e2-4fbb-b377-f461bd0dbe16")
-		(property "Reference" "C61"
+		(property "Reference" "C58"
 			(at 334.01 176.5362 0)
 			(effects
 				(font
@@ -42204,7 +42583,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C61")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -42212,16 +42591,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 238.76 254 0)
+		(at 243.84 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e583eace-f7c1-414d-ad4b-1e2e256c7396")
-		(property "Reference" "C76"
-			(at 241.3 252.7362 0)
+		(property "Reference" "C67"
+			(at 246.38 252.7362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42230,7 +42608,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 241.3 255.2762 0)
+			(at 246.38 255.2762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42239,7 +42617,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 238.76 254 0)
+			(at 243.84 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42248,7 +42626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 254 0)
+			(at 243.84 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42257,7 +42635,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 238.76 254 0)
+			(at 243.84 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42266,7 +42644,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 238.76 254 0)
+			(at 243.84 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42282,7 +42660,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C76")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -42516,7 +42894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9f3170b-dc87-42d4-ad70-9b426596766e")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0101"
 			(at 280.67 156.21 0)
 			(effects
 				(font
@@ -42566,7 +42944,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0105")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -42744,7 +43122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb2c5b7c-5a57-4f03-bad5-23aad2fd2e64")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0118"
 			(at 204.47 186.69 0)
 			(effects
 				(font
@@ -42794,7 +43172,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0130")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -42886,7 +43264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec53b5ef-c60d-4b72-9a05-8aec4a3ed86a")
-		(property "Reference" "SL44"
+		(property "Reference" "SL43"
 			(at 163.83 143.51 0)
 			(effects
 				(font
@@ -42954,7 +43332,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL44")
+					(reference "SL43")
 					(unit 1)
 				)
 			)
@@ -43112,7 +43490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0c7ea4c-1e08-4fdd-a0a0-9925aff2f69b")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0105"
 			(at 382.27 156.21 0)
 			(effects
 				(font
@@ -43162,7 +43540,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0109")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -43253,7 +43631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1daffff-9e51-42f5-8a4a-af7c8de038dd")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR090"
 			(at 320.04 153.67 0)
 			(effects
 				(font
@@ -43303,7 +43681,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR092")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -43468,7 +43846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4d6f3c6-f933-414c-bc96-7c46c8ba528c")
-		(property "Reference" "SL61"
+		(property "Reference" "SL58"
 			(at 341.63 173.99 0)
 			(effects
 				(font
@@ -43536,7 +43914,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL61")
+					(reference "SL58")
 					(unit 1)
 				)
 			)
@@ -43544,7 +43922,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 222.25 241.3 0)
+		(at 218.44 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43553,7 +43931,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5766538-f548-44f6-bdca-22da69f9c31f")
 		(property "Reference" "R4"
-			(at 224.79 240.0299 0)
+			(at 220.98 240.0299 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -43562,7 +43940,7 @@
 			)
 		)
 		(property "Value" "13K"
-			(at 224.79 242.5699 0)
+			(at 220.98 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43571,7 +43949,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.25 241.3 0)
+			(at 218.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43580,7 +43958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 241.3 0)
+			(at 218.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43589,7 +43967,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 222.25 241.3 0)
+			(at 218.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43598,7 +43976,7 @@
 			)
 		)
 		(property "LCSC Part #" "C22797"
-			(at 222.25 241.3 0)
+			(at 218.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43630,7 +44008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6cb2f12-246a-40f6-a34a-0cfd00ebe890")
-		(property "Reference" "SL63"
+		(property "Reference" "SL60"
 			(at 392.43 173.99 0)
 			(effects
 				(font
@@ -43698,7 +44076,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SL63")
+					(reference "SL60")
 					(unit 1)
 				)
 			)
@@ -43714,7 +44092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7abf698-af7b-4620-a02c-285df21d8f73")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0139"
 			(at 347.98 363.22 0)
 			(effects
 				(font
@@ -43765,7 +44143,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0158")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -43932,6 +44310,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 238.76 241.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0f5e88-04c1-49bd-b4d5-ae24b79c8b14")
+		(property "Reference" "#PWR0146"
+			(at 245.11 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 241.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88374a9a-8bd5-4486-9026-db019bbf9ddb")
+		)
+		(instances
+			(project "ninja-keyboard"
+				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 255.27 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43939,7 +44384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb729720-e8a9-4328-8113-60b43460a7aa")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0100"
 			(at 255.27 156.21 0)
 			(effects
 				(font
@@ -43989,7 +44434,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0104")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -44004,7 +44449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc4ae9a0-7a34-4154-b65c-d1b8885983e6")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0115"
 			(at 128.27 186.69 0)
 			(effects
 				(font
@@ -44054,7 +44499,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0127")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -44147,7 +44592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcce44af-e5cd-41f1-bdca-9100fc4142e2")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0112"
 			(at 370.84 184.15 0)
 			(effects
 				(font
@@ -44197,7 +44642,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0118")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -44519,7 +44964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff590f0b-8ed5-4ff4-a718-e1657c1b3f6b")
-		(property "Reference" "SW47"
+		(property "Reference" "SW46"
 			(at 238.76 133.35 0)
 			(effects
 				(font
@@ -44579,7 +45024,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "SW47")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -44595,7 +45040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff6e940f-d9a3-4ea5-ba4c-2cf8f98fab5a")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0130"
 			(at 480.06 316.23 0)
 			(effects
 				(font
@@ -44645,7 +45090,7 @@
 		(instances
 			(project ""
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "#PWR0149")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -44661,7 +45106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffa765cf-b2a3-4e3c-9c58-f057667fdc95")
-		(property "Reference" "C80"
+		(property "Reference" "C71"
 			(at 83.82 382.2762 0)
 			(effects
 				(font
@@ -44724,7 +45169,7 @@
 		(instances
 			(project "ninja-keyboard"
 				(path "/38993bca-db6c-4f9a-9477-49e0546421f5"
-					(reference "C80")
+					(reference "C71")
 					(unit 1)
 				)
 			)
