@@ -4881,7 +4881,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4899,7 +4899,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13990,7 +13990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 289.56 76.2 0)
 			(effects
 				(font
@@ -14017,7 +14017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 289.56 81.28 0)
 			(effects
 				(font
@@ -14066,7 +14066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -14093,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 264.16 81.28 0)
 			(effects
 				(font
@@ -15682,7 +15682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 137.16 46.99 0)
 			(effects
 				(font
@@ -15709,7 +15709,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 137.16 52.07 0)
 			(effects
 				(font
@@ -16298,7 +16298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 238.76 46.99 0)
 			(effects
 				(font
@@ -16325,7 +16325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 238.76 52.07 0)
 			(effects
 				(font
@@ -16952,7 +16952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -16979,7 +16979,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17386,7 +17386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -17413,7 +17413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -17672,7 +17672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 340.36 105.41 0)
 			(effects
 				(font
@@ -17699,7 +17699,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 340.36 110.49 0)
 			(effects
 				(font
@@ -17971,7 +17971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -17998,7 +17998,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -18713,7 +18713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 213.36 105.41 0)
 			(effects
 				(font
@@ -18740,7 +18740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 213.36 110.49 0)
 			(effects
 				(font
@@ -18873,7 +18873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.50u_reversed"
 			(at 467.36 76.2 0)
 			(effects
 				(font
@@ -18900,7 +18900,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 467.36 81.28 0)
 			(effects
 				(font
@@ -18949,7 +18949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 314.96 76.2 0)
 			(effects
 				(font
@@ -18976,7 +18976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 314.96 81.28 0)
 			(effects
 				(font
@@ -19025,7 +19025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 314.96 105.41 0)
 			(effects
 				(font
@@ -19052,7 +19052,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 314.96 110.49 0)
 			(effects
 				(font
@@ -19311,7 +19311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 187.96 46.99 0)
 			(effects
 				(font
@@ -19338,7 +19338,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 187.96 52.07 0)
 			(effects
 				(font
@@ -19774,7 +19774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 391.16 105.41 0)
 			(effects
 				(font
@@ -19801,7 +19801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 391.16 110.49 0)
 			(effects
 				(font
@@ -20085,7 +20085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 416.56 46.99 0)
 			(effects
 				(font
@@ -20112,7 +20112,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 416.56 52.07 0)
 			(effects
 				(font
@@ -20321,7 +20321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 416.56 105.41 0)
 			(effects
 				(font
@@ -20348,7 +20348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 416.56 110.49 0)
 			(effects
 				(font
@@ -20897,7 +20897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 238.76 105.41 0)
 			(effects
 				(font
@@ -20924,7 +20924,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 238.76 110.49 0)
 			(effects
 				(font
@@ -21402,7 +21402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_2.25u_reversed"
 			(at 441.96 105.41 0)
 			(effects
 				(font
@@ -21429,7 +21429,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 441.96 110.49 0)
 			(effects
 				(font
@@ -21762,7 +21762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 213.36 76.2 0)
 			(effects
 				(font
@@ -21789,7 +21789,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 213.36 81.28 0)
 			(effects
 				(font
@@ -21838,7 +21838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.25u_reversed"
 			(at 187.96 166.37 0)
 			(effects
 				(font
@@ -21865,7 +21865,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 187.96 171.45 0)
 			(effects
 				(font
@@ -21914,7 +21914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.25u_reversed"
 			(at 162.56 166.37 0)
 			(effects
 				(font
@@ -21941,7 +21941,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 162.56 171.45 0)
 			(effects
 				(font
@@ -22281,7 +22281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 289.56 105.41 0)
 			(effects
 				(font
@@ -22308,7 +22308,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 289.56 110.49 0)
 			(effects
 				(font
@@ -22357,7 +22357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 416.56 76.2 0)
 			(effects
 				(font
@@ -22384,7 +22384,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 416.56 81.28 0)
 			(effects
 				(font
@@ -23721,7 +23721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.25u_reversed"
 			(at 137.16 166.37 0)
 			(effects
 				(font
@@ -23748,7 +23748,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 137.16 171.45 0)
 			(effects
 				(font
@@ -24902,7 +24902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 365.76 105.41 0)
 			(effects
 				(font
@@ -24929,7 +24929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 365.76 110.49 0)
 			(effects
 				(font
@@ -25921,7 +25921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 314.96 46.99 0)
 			(effects
 				(font
@@ -25948,7 +25948,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 314.96 52.07 0)
 			(effects
 				(font
@@ -26465,7 +26465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -26492,7 +26492,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 213.36 52.07 0)
 			(effects
 				(font
@@ -26619,7 +26619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.25u_reversed"
 			(at 340.36 166.37 0)
 			(effects
 				(font
@@ -26646,7 +26646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 340.36 166.37 0)
 			(effects
 				(font
@@ -26696,7 +26696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 162.56 135.89 0)
 			(effects
 				(font
@@ -26723,7 +26723,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 162.56 140.97 0)
 			(effects
 				(font
@@ -27429,7 +27429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.25u_reversed"
 			(at 391.16 166.37 0)
 			(effects
 				(font
@@ -27456,7 +27456,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 391.16 166.37 0)
 			(effects
 				(font
@@ -27988,7 +27988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 238.76 76.2 0)
 			(effects
 				(font
@@ -28015,7 +28015,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 238.76 81.28 0)
 			(effects
 				(font
@@ -28064,7 +28064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 289.56 135.89 0)
 			(effects
 				(font
@@ -28091,7 +28091,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 289.56 140.97 0)
 			(effects
 				(font
@@ -28140,7 +28140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 391.16 76.2 0)
 			(effects
 				(font
@@ -28167,7 +28167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 391.16 81.28 0)
 			(effects
 				(font
@@ -28216,7 +28216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -28243,7 +28243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 213.36 140.97 0)
 			(effects
 				(font
@@ -28292,7 +28292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_2.00u_reversed"
 			(at 467.36 46.99 0)
 			(effects
 				(font
@@ -28319,7 +28319,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 467.36 52.07 0)
 			(effects
 				(font
@@ -29111,7 +29111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -29138,7 +29138,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 162.56 52.07 0)
 			(effects
 				(font
@@ -29919,7 +29919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 340.36 76.2 0)
 			(effects
 				(font
@@ -29946,7 +29946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 340.36 81.28 0)
 			(effects
 				(font
@@ -30074,7 +30074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -30101,7 +30101,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -30150,7 +30150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 340.36 135.89 0)
 			(effects
 				(font
@@ -30177,7 +30177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 340.36 140.97 0)
 			(effects
 				(font
@@ -30597,7 +30597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.25u_reversed"
 			(at 416.56 166.37 0)
 			(effects
 				(font
@@ -30624,7 +30624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 416.56 166.37 0)
 			(effects
 				(font
@@ -31242,7 +31242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.50u_reversed"
 			(at 137.16 76.2 0)
 			(effects
 				(font
@@ -31269,7 +31269,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -34685,7 +34685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 340.36 46.99 0)
 			(effects
 				(font
@@ -34712,7 +34712,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 340.36 52.07 0)
 			(effects
 				(font
@@ -36084,7 +36084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 365.76 135.89 0)
 			(effects
 				(font
@@ -36111,7 +36111,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 365.76 140.97 0)
 			(effects
 				(font
@@ -36160,7 +36160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -36187,7 +36187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 187.96 81.28 0)
 			(effects
 				(font
@@ -37042,7 +37042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.75u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_2.75u_reversed"
 			(at 416.56 135.89 0)
 			(effects
 				(font
@@ -37069,7 +37069,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 416.56 140.97 0)
 			(effects
 				(font
@@ -37248,7 +37248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 391.16 135.89 0)
 			(effects
 				(font
@@ -37275,7 +37275,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 391.16 140.97 0)
 			(effects
 				(font
@@ -37324,7 +37324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_6.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_6.25u_reversed"
 			(at 213.36 166.37 0)
 			(effects
 				(font
@@ -37351,7 +37351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 213.36 171.45 0)
 			(effects
 				(font
@@ -38018,7 +38018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.75u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.75u_reversed"
 			(at 137.16 105.41 0)
 			(effects
 				(font
@@ -38045,7 +38045,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -38225,7 +38225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 365.76 76.2 0)
 			(effects
 				(font
@@ -38252,7 +38252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 365.76 81.28 0)
 			(effects
 				(font
@@ -38534,7 +38534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 365.76 46.99 0)
 			(effects
 				(font
@@ -38561,7 +38561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 365.76 52.07 0)
 			(effects
 				(font
@@ -39003,7 +39003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 187.96 135.89 0)
 			(effects
 				(font
@@ -39030,7 +39030,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 187.96 140.97 0)
 			(effects
 				(font
@@ -39079,7 +39079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 314.96 135.89 0)
 			(effects
 				(font
@@ -39106,7 +39106,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 314.96 140.97 0)
 			(effects
 				(font
@@ -39382,7 +39382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 391.16 46.99 0)
 			(effects
 				(font
@@ -39409,7 +39409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 391.16 52.07 0)
 			(effects
 				(font
@@ -39458,7 +39458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 441.96 46.99 0)
 			(effects
 				(font
@@ -39485,7 +39485,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 441.96 52.07 0)
 			(effects
 				(font
@@ -40314,7 +40314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 441.96 76.2 0)
 			(effects
 				(font
@@ -40341,7 +40341,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 441.96 81.28 0)
 			(effects
 				(font
@@ -40617,7 +40617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 162.56 105.41 0)
 			(effects
 				(font
@@ -40644,7 +40644,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 162.56 110.49 0)
 			(effects
 				(font
@@ -41382,7 +41382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.25u_reversed"
 			(at 365.76 166.37 0)
 			(effects
 				(font
@@ -41409,7 +41409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 365.76 166.37 0)
 			(effects
 				(font
@@ -42050,7 +42050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_2.25u_reversed"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -42077,7 +42077,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 137.16 140.97 0)
 			(effects
 				(font
@@ -43204,7 +43204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 289.56 46.99 0)
 			(effects
 				(font
@@ -43231,7 +43231,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 289.56 52.07 0)
 			(effects
 				(font
@@ -43572,7 +43572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 264.16 46.99 0)
 			(effects
 				(font
@@ -43599,7 +43599,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 264.16 52.07 0)
 			(effects
 				(font
@@ -44980,7 +44980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "user_added:SW_Hotswap_Kailh_MX_1.00u_reversed"
 			(at 238.76 135.89 0)
 			(effects
 				(font
@@ -45007,7 +45007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5333465"
+		(property "LCSC Part #" "C41430893"
 			(at 238.76 140.97 0)
 			(effects
 				(font
