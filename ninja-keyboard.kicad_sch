@@ -27379,7 +27379,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2845379"
+		(property "LCSC Part #" "C7527581"
 			(at 199.39 375.92 0)
 			(effects
 				(font
@@ -30400,7 +30400,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "White"
 			(at 35.56 326.3899 90)
 			(effects
 				(font
@@ -30454,12 +30454,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2297"
+		(property "LCSC Part #" "C2290"
 			(at 33.02 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -36715,12 +36716,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22370919"
+		(property "LCSC Part #" "C22435652"
 			(at 156.21 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -42183,7 +42185,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Yellow"
+		(property "Value" "Red"
 			(at 262.89 359.3464 90)
 			(effects
 				(font
@@ -42237,7 +42239,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2296"
+		(property "LCSC Part #" "C2286"
 			(at 260.35 358.14 0)
 			(effects
 				(font
