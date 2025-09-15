@@ -6863,6 +6863,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 248.92) (xy 140.97 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304cce79-0c76-4612-a8ce-895f13316150")
+	)
+	(wire
+		(pts
 			(xy 114.3 68.58) (xy 149.86 68.58)
 		)
 		(stroke
@@ -8490,16 +8500,6 @@
 			(type default)
 		)
 		(uuid "73b5f3b0-3f4a-4ca7-92f4-53d982e28936")
-	)
-	(wire
-		(pts
-			(xy 105.41 248.92) (xy 120.65 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c5ceca-2dd6-4098-ad88-97f309b52f91")
 	)
 	(wire
 		(pts
@@ -12832,12 +12832,12 @@
 		(uuid "84b35e77-f0d6-456c-8772-cd06d2027121")
 	)
 	(label "LCD_CS"
-		(at 133.35 246.38 0)
+		(at 120.65 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "84c5d5dc-2b63-4656-9ad3-f15471152907")
 	)
@@ -13102,12 +13102,12 @@
 		(uuid "a806dd36-653f-4af4-86e3-472004916ad6")
 	)
 	(label "LCD_DC"
-		(at 120.65 254 180)
+		(at 133.35 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "aad0bae3-dad1-4a05-b06d-80317cc89eef")
 	)
@@ -13182,12 +13182,12 @@
 		(uuid "bcd42c18-8ae7-416f-825d-e0787177fed8")
 	)
 	(label "LCD_BLK"
-		(at 120.65 246.38 180)
+		(at 133.35 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bcd797b3-39e3-4dd7-abb0-b4b768ab0160")
 	)
@@ -13202,12 +13202,12 @@
 		(uuid "bdd1357e-9ef2-416b-b8a0-0d1da4fd0665")
 	)
 	(label "LCD_SCL"
-		(at 133.35 251.46 0)
+		(at 120.65 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c3181829-9cce-4364-8e38-73594261fcc4")
 	)
@@ -13252,12 +13252,12 @@
 		(uuid "c575e8c2-d856-432c-af7a-32419796431b")
 	)
 	(label "LCD_SDA"
-		(at 133.35 254 0)
+		(at 120.65 254 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c5e00551-2f5c-47de-ad4d-56dd000c5296")
 	)
@@ -13322,12 +13322,12 @@
 		(uuid "d06eec32-4519-4192-8ee6-89d0abac806d")
 	)
 	(label "3V3"
-		(at 133.35 248.92 0)
+		(at 120.65 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d17a71ff-78ad-4b73-a904-9867118b7a2d")
 	)
@@ -13442,12 +13442,12 @@
 		(uuid "e07f394e-b76c-47fe-afa7-aa8415d5533c")
 	)
 	(label "LCD_RST"
-		(at 120.65 251.46 180)
+		(at 133.35 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e1bb907c-c63e-4d40-b993-e15fab419c8c")
 	)
@@ -15854,7 +15854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 248.92 270)
+		(at 140.97 248.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15863,7 +15863,7 @@
 		(fields_autoplaced yes)
 		(uuid "13570f96-e2f9-49ef-ac58-bf1d59ab480c")
 		(property "Reference" "#PWR0127"
-			(at 99.06 248.92 0)
+			(at 147.32 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,7 +15872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 248.9199 90)
+			(at 144.78 248.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15881,7 +15881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 248.92 0)
+			(at 140.97 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 248.92 0)
+			(at 140.97 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +15899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 248.92 0)
+			(at 140.97 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
