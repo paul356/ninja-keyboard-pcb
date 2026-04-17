@@ -1,0 +1,168 @@
+(footprint "ipex 4th generation"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bbddbda4-4d98-46fe-96b6-e7fa75807483")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ipex 4th generation"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2cbfdcde-5201-439e-99b7-4527e083ffd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bec3cb0-98cb-43af-9266-8a92884926bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48198694-220f-4201-be9e-08754bee0992")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a6297f0-9066-418b-ad3c-61a0b846cfda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c4b8c5f0-92bb-4d2f-8187-9609efc3280b")
+	)
+	(pad "2" smd custom
+		(at -1 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.25 -0.79) (xy 0.33 -0.79) (xy 0.33 -0.27) (xy 0.25 -0.19) (xy 0.25 0.19) (xy 0.33 0.27)
+					(xy 0.33 0.79) (xy -0.25 0.79)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "09bd8bba-b66a-4972-a327-770ac78e8c9e")
+	)
+	(pad "2" smd rect
+		(at 0 0.975)
+		(size 0.6 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "174121da-ea68-49d1-b549-982714284130")
+	)
+	(pad "2" smd custom
+		(at 1 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.25 -0.79) (xy -0.33 -0.79) (xy -0.33 -0.27) (xy -0.25 -0.19) (xy -0.25 0.19) (xy -0.33 0.27)
+					(xy -0.33 0.79) (xy 0.25 0.79)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "feae6121-1fbd-4be0-ae5c-6eaf0dd1b388")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "7df08608-269a-466b-a822-b645c21bf826")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.75 -0.19) (xy -0.75 0.19) (xy -0.75 0.79) (xy 0.75 0.79) (xy 0.75 0.19) (xy 0.75 -0.19) (xy 0.75 -0.79)
+				(xy -0.67 -0.79) (xy -0.75 -0.79)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/MHF_4_(20611)_STEP/20449-001EC RECEPTACLE STEP R5 ALL.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

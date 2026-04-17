@@ -1,0 +1,97 @@
+(footprint "Stabilizer_MX_2u"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MX-style stabilizer mount")
+	(tags "MX,cherry,gateron,kailh,pg1511,stabilizer,stab")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "660eaa39-2de3-4148-9953-a5573a8b13fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Stabilizer_MX_2u"
+		(at 0 10.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da1a2de9-f4e5-44a6-9fe3-1cd86cb93204")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "150da06e-70ab-4aee-8741-f5556e621201")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a534cb64-70b3-42b8-b26a-ae93a4e2db1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2442a3d8-a246-4244-94f8-fce89cd2a982")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.9 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4630c3b1-3fc5-4d9d-a47e-e0039a75cbd2")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.9 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "72c86196-0565-4da3-8ef7-1b0cc3168ea6")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.9 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f5187718-a671-4728-8748-73e791266efe")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.9 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "586d46a7-44a0-48a2-85c1-2f69181d7f7a")
+	)
+	(embedded_fonts no)
+)
